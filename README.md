@@ -1,4 +1,4 @@
-# TrioGo Routing
+# TripGo Routing Leaflet Plugin
 
 ## API-Key
  Get your API key [here ](https://skedgo.com/en/tripgo-api/).
@@ -96,19 +96,19 @@ TripGo leaflet's plugin motivation is to provide an easy way to include it's fun
 ***Sydney***
 
 - Default Configuration
-![TripGoRouting](tripgoRouting.png)
+![TripGoRouting](tripgoRouting.jpg)
 
 - Float Configuration
-![TripGoRouting](tripgoRoutingFloatPanel.png)
+![TripGoRouting](tripgoRoutingFloatPanel.jpg)
 
 ***London***
 
-![TripGoRouting](tripgoRouting2.png)
+![TripGoRouting](tripgoRouting2.jpg)
  
    
     
    
 # Npm
 
-
+ <pre> npm install leaflet.tripgo.routing </pre>
 

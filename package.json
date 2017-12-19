@@ -1,5 +1,5 @@
 {
-  "name": "leafet.tripgo.routing",
+  "name": "leaflet.tripgo.routing",
   "version": "1.0.0",
   "description": "TripGo routing for Leaflet - Trip planning door-to-door",
   "preferGlobal": true,
@@ -18,7 +18,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/skedgo/leafet.tripgo.routing"
+    "url": "https://github.com/skedgo/leaflet.tripgo.routing"
   },
   "author": "SkedGo",
   "license": "",
