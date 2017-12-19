@@ -106,7 +106,8 @@ TripGo leaflet's plugin motivation is to provide an easy way to include it's fun
 ![TripGoRouting](tripgoRouting2.jpg)
  
    
-    
+#DEMO
+https://skedgo.github.io/leaflet.tripgo.routing/    
    
 # Npm
 
