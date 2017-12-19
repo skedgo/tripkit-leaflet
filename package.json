@@ -1,0 +1,38 @@
+{
+  "name": "leafet.tripgo.routing",
+  "version": "1.0.0",
+  "description": "TripGo routing for Leaflet - Trip planning door-to-door",
+  "preferGlobal": true,
+  "main": "./dist/TripgoRouting.js",
+  "scripts": {
+    "prepublish": "node bin/build.js",
+    "test": "echo 'Error: no test specified\" && exit 1'"
+  },
+  "keywords": [
+    "map",
+    "leaflet",
+    "routing",
+    "trip",
+    "door-to-door",
+    "planning"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skedgo/leafet.tripgo.routing"
+  },
+  "author": "SkedGo",
+  "license": "",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-latest": "^6.16.0",
+    "javascript-obfuscator": "^0.12.5"
+  },
+  "dependencies": {
+    "shelljs": "^0.7.8",
+    "polyline-encoded": "0.0.8",
+    "leaflet": "^1.2.0",
+    "jquery": "^3.2.1"
+  },
+  "readmeFilename": "README.md",
+  "homepage": "https://www.skedgo.com/"
+}

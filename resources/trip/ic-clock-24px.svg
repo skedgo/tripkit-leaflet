@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>ic-clock-24px</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-92.000000, -63.000000)" id="Clock">
+            <g transform="translate(92.000000, 63.000000)">
+                <rect id="Grid" x="0" y="0" width="24" height="24"></rect>
+                <path d="M12,20 C7.58285714,20 4,16.4171429 4,12 C4,7.58285714 7.58285714,4 12,4 C16.4171429,4 20,7.58285714 20,12 C20,16.4171429 16.4171429,20 12,20 M12.5,11.9421468 L15.4625867,14.9047335 C15.7593478,15.2014946 15.7645252,15.6774618 15.46959,15.972397 C15.1766968,16.2652902 14.6990012,16.2624683 14.4019266,15.9653937 L11.3592319,12.9226991 C11.1437807,12.8290284 11,12.6577463 11,12.4507217 L11,6.54927826 L11,6.74912262 C11,6.33539362 11.3328986,6 11.75,6 C12.1642136,6 12.5,6.33762455 12.5,6.74912262 L12.5,11.9421468 Z M12,2 C6.47722222,2 2,6.47777778 2,12 C2,17.5222222 6.47722222,22 12,22 C17.5227778,22 22,17.5222222 22,12 C22,6.47777778 17.5227778,2 12,2 Z" fill="#212121"></path>
+            </g>
+        </g>
+    </g>
+</svg>

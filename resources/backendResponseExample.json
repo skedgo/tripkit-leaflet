@@ -1,0 +1,3516 @@
+{
+  "groups": [
+    {
+      "frequency": 20,
+      "sources": [
+        {
+          "disclaimer": "© OpenStreetMap contributors\n\nMap data available under the Open Database License. For more information, see http://www.openstreetmap.org/copyright.",
+          "provider": {
+            "name": "OpenStreetMap",
+            "website": "https://www.openstreetmap.org"
+          }
+        },
+        {
+          "provider": {
+            "name": "State Transit Sydney"
+          }
+        },
+        {
+          "provider": {
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "trips": [
+        {
+          "arrive": 1513687499,
+          "availability": "AVAILABLE",
+          "caloriesCost": 41,
+          "carbonCost": 0.1,
+          "currencySymbol": "$",
+          "depart": 1513685213,
+          "hassleCost": 5,
+          "mainSegmentHashCode": -1439549080,
+          "moneyCost": 2.57,
+          "moneyUSDCost": 2.01,
+          "plannedURL": "https://darkages.buzzhives.com/satapp/trip/planned/fbdb323a-a95a-44da-a3a1-e5631fbdecec",
+          "queryIsLeaveAfter": true,
+          "queryTime": 1513682100,
+          "saveURL": "https://darkages.buzzhives.com/satapp/trip/save/fbdb323a-a95a-44da-a3a1-e5631fbdecec",
+          "segments": [
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513685520,
+              "segmentTemplateHashCode": -2127659442,
+              "startTime": 1513685213
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513686060,
+              "segmentTemplateHashCode": -1439549080,
+              "serviceColor": {
+                "blue": 239,
+                "green": 181,
+                "red": 0
+              },
+              "serviceDirection": "City Market St",
+              "serviceName": "Balmain East Wharf to City QVB",
+              "serviceNumber": "442",
+              "serviceTripID": "528522",
+              "startTime": 1513685520,
+              "stops": 4,
+              "ticketWebsiteURL": "https://www.opal.com.au/en/fares-and-benefits/",
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513686405,
+              "segmentTemplateHashCode": -2006122914,
+              "startTime": 1513686060
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513686720,
+              "segmentTemplateHashCode": -1268641489,
+              "startTime": 1513686405
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513686960,
+              "platform": "Platform 5",
+              "realtimeVehicle": {
+                "id": "605R",
+                "label": "22:33 Cronulla Station to Bondi Junction Station ",
+                "lastUpdate": 1513687125,
+                "location": {
+                  "bearing": 115,
+                  "lat": -33.8816,
+                  "lng": 151.24055
+                }
+              },
+              "segmentTemplateHashCode": 1687945651,
+              "serviceColor": {
+                "blue": 163,
+                "green": 90,
+                "red": 0
+              },
+              "serviceDirection": "Bondi Junction",
+              "serviceName": "T4 Eastern Suburbs & Illawarra Line",
+              "serviceNumber": "T4",
+              "serviceTripID": "605R.1542.101.60.T.8.48686477",
+              "startTime": 1513686720,
+              "stops": 2,
+              "ticketWebsiteURL": "https://www.opal.com.au/en/fares-and-benefits/",
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513687499,
+              "segmentTemplateHashCode": 1146586373,
+              "startTime": 1513686960
+            }
+          ],
+          "temporaryURL": "https://darkages.buzzhives.com/satapp/trip/fbdb323a-a95a-44da-a3a1-e5631fbdecec",
+          "updateURL": "https://darkages.buzzhives.com/satapp/trip/update/fbdb323a-a95a-44da-a3a1-e5631fbdecec?hash=931702992",
+          "weightedScore": 26.8
+        },
+        {
+          "arrive": 1513686299,
+          "availability": "AVAILABLE",
+          "caloriesCost": 41,
+          "carbonCost": 0.1,
+          "currencySymbol": "$",
+          "depart": 1513684313,
+          "hassleCost": 6.5,
+          "mainSegmentHashCode": -1439549080,
+          "moneyCost": 2.57,
+          "moneyUSDCost": 2.01,
+          "plannedURL": "https://darkages.buzzhives.com/satapp/trip/planned/aaa8a6d4-87a1-4bf2-8a98-ff3811a43abd",
+          "queryIsLeaveAfter": true,
+          "queryTime": 1513682100,
+          "saveURL": "https://darkages.buzzhives.com/satapp/trip/save/aaa8a6d4-87a1-4bf2-8a98-ff3811a43abd",
+          "segments": [
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513684620,
+              "segmentTemplateHashCode": -2127659442,
+              "startTime": 1513684313
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513685160,
+              "segmentTemplateHashCode": -1439549080,
+              "serviceColor": {
+                "blue": 239,
+                "green": 181,
+                "red": 0
+              },
+              "serviceDirection": "City Market St",
+              "serviceName": "Birchgrove to City Art Gallery via QVB",
+              "serviceNumber": "441",
+              "serviceTripID": "528509",
+              "startTime": 1513684620,
+              "stops": 4,
+              "ticketWebsiteURL": "https://www.opal.com.au/en/fares-and-benefits/",
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513685505,
+              "segmentTemplateHashCode": -2006122914,
+              "startTime": 1513685160
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513685520,
+              "segmentTemplateHashCode": -1268641489,
+              "startTime": 1513685505
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513685760,
+              "platform": "Platform 5",
+              "segmentTemplateHashCode": 1686856838,
+              "serviceColor": {
+                "blue": 163,
+                "green": 90,
+                "red": 0
+              },
+              "serviceDirection": "Bondi Junction",
+              "serviceName": "T4 Eastern Suburbs & Illawarra Line",
+              "serviceNumber": "T4",
+              "serviceTripID": "623U.1542.101.120.T.8.48688499",
+              "startTime": 1513685520,
+              "stops": 2,
+              "ticketWebsiteURL": "https://www.opal.com.au/en/fares-and-benefits/",
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513686299,
+              "segmentTemplateHashCode": 1146586373,
+              "startTime": 1513685760
+            }
+          ],
+          "temporaryURL": "https://darkages.buzzhives.com/satapp/trip/aaa8a6d4-87a1-4bf2-8a98-ff3811a43abd",
+          "updateURL": "https://darkages.buzzhives.com/satapp/trip/update/aaa8a6d4-87a1-4bf2-8a98-ff3811a43abd?hash=-175311157",
+          "weightedScore": 25.2
+        },
+        {
+          "arrive": 1513684499,
+          "availability": "AVAILABLE",
+          "caloriesCost": 41,
+          "carbonCost": 0.1,
+          "currencySymbol": "$",
+          "depart": 1513682513,
+          "hassleCost": 6.5,
+          "mainSegmentHashCode": -1439549080,
+          "moneyCost": 2.57,
+          "moneyUSDCost": 2.01,
+          "plannedURL": "https://darkages.buzzhives.com/satapp/trip/planned/9b91281a-0d7d-429b-ab07-c36ada895b5e",
+          "queryIsLeaveAfter": true,
+          "queryTime": 1513682100,
+          "saveURL": "https://darkages.buzzhives.com/satapp/trip/save/9b91281a-0d7d-429b-ab07-c36ada895b5e",
+          "segments": [
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513682820,
+              "segmentTemplateHashCode": -2127659442,
+              "startTime": 1513682513
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513683360,
+              "segmentTemplateHashCode": -1439549080,
+              "serviceColor": {
+                "blue": 239,
+                "green": 181,
+                "red": 0
+              },
+              "serviceDirection": "City Market St",
+              "serviceName": "Birchgrove to City Art Gallery via QVB",
+              "serviceNumber": "441",
+              "serviceTripID": "528508",
+              "startTime": 1513682820,
+              "stops": 4,
+              "ticketWebsiteURL": "https://www.opal.com.au/en/fares-and-benefits/",
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513683705,
+              "segmentTemplateHashCode": -2006122914,
+              "startTime": 1513683360
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513683720,
+              "segmentTemplateHashCode": -1268641489,
+              "startTime": 1513683705
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513683960,
+              "platform": "Platform 5",
+              "segmentTemplateHashCode": 1686444569,
+              "serviceColor": {
+                "blue": 163,
+                "green": 90,
+                "red": 0
+              },
+              "serviceDirection": "Bondi Junction",
+              "serviceName": "T4 Eastern Suburbs & Illawarra Line",
+              "serviceNumber": "T4",
+              "serviceTripID": "601L.1542.101.60.T.8.48686089",
+              "startTime": 1513683720,
+              "stops": 2,
+              "ticketWebsiteURL": "https://www.opal.com.au/en/fares-and-benefits/",
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513684499,
+              "segmentTemplateHashCode": 1146586373,
+              "startTime": 1513683960
+            }
+          ],
+          "temporaryURL": "https://darkages.buzzhives.com/satapp/trip/9b91281a-0d7d-429b-ab07-c36ada895b5e",
+          "updateURL": "https://darkages.buzzhives.com/satapp/trip/update/9b91281a-0d7d-429b-ab07-c36ada895b5e?hash=588384094",
+          "weightedScore": 20.2
+        },
+        {
+          "arrive": 1513689299,
+          "availability": "AVAILABLE",
+          "caloriesCost": 41,
+          "carbonCost": 0.1,
+          "currencySymbol": "$",
+          "depart": 1513687078,
+          "hassleCost": 5,
+          "mainSegmentHashCode": -1439549080,
+          "moneyCost": 2.57,
+          "moneyUSDCost": 2.01,
+          "plannedURL": "https://darkages.buzzhives.com/satapp/trip/planned/72ac4543-425e-4959-bc6f-ebc9c4cfb971",
+          "queryIsLeaveAfter": true,
+          "queryTime": 1513682100,
+          "saveURL": "https://darkages.buzzhives.com/satapp/trip/save/72ac4543-425e-4959-bc6f-ebc9c4cfb971",
+          "segments": [
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513687385,
+              "segmentTemplateHashCode": -2127659442,
+              "startTime": 1513687078
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513687802,
+              "realTime": true,
+              "realtimeVehicle": {
+                "id": "528523",
+                "label": "",
+                "lastUpdate": 1513687120,
+                "location": {
+                  "bearing": 267,
+                  "lat": -33.85826,
+                  "lng": 151.18504
+                },
+                "occupancy": "MANY_SEATS_AVAILABLE",
+                "wifi": false
+              },
+              "segmentTemplateHashCode": -1439549080,
+              "serviceColor": {
+                "blue": 239,
+                "green": 181,
+                "red": 0
+              },
+              "serviceDirection": "City Market St",
+              "serviceName": "Balmain East Wharf to City QVB",
+              "serviceNumber": "442",
+              "serviceTripID": "528523",
+              "startTime": 1513687385,
+              "stops": 4,
+              "ticketWebsiteURL": "https://www.opal.com.au/en/fares-and-benefits/",
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513688147,
+              "segmentTemplateHashCode": -2006122914,
+              "startTime": 1513687802
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513688520,
+              "segmentTemplateHashCode": -1268641489,
+              "startTime": 1513688147
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513688760,
+              "platform": "Platform 5",
+              "realtimeVehicle": {
+                "id": "609N",
+                "label": "23:03 Cronulla Station to Bondi Junction Station ",
+                "lastUpdate": 1513687052,
+                "location": {
+                  "bearing": 80,
+                  "lat": -33.96811,
+                  "lng": 151.12532
+                }
+              },
+              "segmentTemplateHashCode": 1661645003,
+              "serviceColor": {
+                "blue": 163,
+                "green": 90,
+                "red": 0
+              },
+              "serviceDirection": "Bondi Junction",
+              "serviceName": "T4 Eastern Suburbs & Illawarra Line",
+              "serviceNumber": "T4",
+              "serviceTripID": "609N.1542.101.120.T.8.48689792",
+              "startTime": 1513688520,
+              "stops": 2,
+              "ticketWebsiteURL": "https://www.opal.com.au/en/fares-and-benefits/",
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513689299,
+              "segmentTemplateHashCode": 1146586373,
+              "startTime": 1513688760
+            }
+          ],
+          "temporaryURL": "https://darkages.buzzhives.com/satapp/trip/72ac4543-425e-4959-bc6f-ebc9c4cfb971",
+          "updateURL": "https://darkages.buzzhives.com/satapp/trip/update/72ac4543-425e-4959-bc6f-ebc9c4cfb971?hash=-1626174730",
+          "weightedScore": 31.8
+        },
+        {
+          "arrive": 1513685699,
+          "availability": "AVAILABLE",
+          "caloriesCost": 41,
+          "carbonCost": 0.1,
+          "currencySymbol": "$",
+          "depart": 1513683413,
+          "hassleCost": 5,
+          "mainSegmentHashCode": -1439549080,
+          "moneyCost": 2.57,
+          "moneyUSDCost": 2.01,
+          "plannedURL": "https://darkages.buzzhives.com/satapp/trip/planned/64c39ddc-ee83-45db-bf9b-6288ed102da8",
+          "queryIsLeaveAfter": true,
+          "queryTime": 1513682100,
+          "saveURL": "https://darkages.buzzhives.com/satapp/trip/save/64c39ddc-ee83-45db-bf9b-6288ed102da8",
+          "segments": [
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513683720,
+              "segmentTemplateHashCode": -2127659442,
+              "startTime": 1513683413
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513684260,
+              "segmentTemplateHashCode": -1439549080,
+              "serviceColor": {
+                "blue": 239,
+                "green": 181,
+                "red": 0
+              },
+              "serviceDirection": "City Market St",
+              "serviceName": "Balmain East Wharf to City QVB",
+              "serviceNumber": "442",
+              "serviceTripID": "528521",
+              "startTime": 1513683720,
+              "stops": 4,
+              "ticketWebsiteURL": "https://www.opal.com.au/en/fares-and-benefits/",
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513684605,
+              "segmentTemplateHashCode": -2006122914,
+              "startTime": 1513684260
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513684920,
+              "segmentTemplateHashCode": -1268641489,
+              "startTime": 1513684605
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513685160,
+              "platform": "Platform 5",
+              "segmentTemplateHashCode": 1662522396,
+              "serviceColor": {
+                "blue": 163,
+                "green": 90,
+                "red": 0
+              },
+              "serviceDirection": "Bondi Junction",
+              "serviceName": "T4 Eastern Suburbs & Illawarra Line",
+              "serviceNumber": "T4",
+              "serviceTripID": "618L.1542.101.60.T.8.48688061",
+              "startTime": 1513684920,
+              "stops": 2,
+              "ticketWebsiteURL": "https://www.opal.com.au/en/fares-and-benefits/",
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513685699,
+              "segmentTemplateHashCode": 1146586373,
+              "startTime": 1513685160
+            }
+          ],
+          "temporaryURL": "https://darkages.buzzhives.com/satapp/trip/64c39ddc-ee83-45db-bf9b-6288ed102da8",
+          "updateURL": "https://darkages.buzzhives.com/satapp/trip/update/64c39ddc-ee83-45db-bf9b-6288ed102da8?hash=321481761",
+          "weightedScore": 21.8
+        },
+        {
+          "arrive": 1513682099,
+          "availability": "AVAILABLE",
+          "caloriesCost": 41,
+          "carbonCost": 0.1,
+          "currencySymbol": "$",
+          "depart": 1513679813,
+          "hassleCost": 5,
+          "mainSegmentHashCode": -1439549080,
+          "moneyCost": 2.57,
+          "moneyUSDCost": 2.01,
+          "plannedURL": "https://darkages.buzzhives.com/satapp/trip/planned/b9d121e1-7e6f-418d-ae52-9242846ae888",
+          "queryIsLeaveAfter": true,
+          "queryTime": 1513682100,
+          "saveURL": "https://darkages.buzzhives.com/satapp/trip/save/b9d121e1-7e6f-418d-ae52-9242846ae888",
+          "segments": [
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513680120,
+              "segmentTemplateHashCode": -2127659442,
+              "startTime": 1513679813
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513680660,
+              "segmentTemplateHashCode": -1439549080,
+              "serviceColor": {
+                "blue": 239,
+                "green": 181,
+                "red": 0
+              },
+              "serviceDirection": "City Market St",
+              "serviceName": "Balmain East Wharf to City QVB",
+              "serviceNumber": "442",
+              "serviceTripID": "528519",
+              "startTime": 1513680120,
+              "stops": 4,
+              "ticketWebsiteURL": "https://www.opal.com.au/en/fares-and-benefits/",
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513681005,
+              "segmentTemplateHashCode": -2006122914,
+              "startTime": 1513680660
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513681320,
+              "segmentTemplateHashCode": -1268641489,
+              "startTime": 1513681005
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513681560,
+              "platform": "Platform 5",
+              "segmentTemplateHashCode": 1662522396,
+              "serviceColor": {
+                "blue": 163,
+                "green": 90,
+                "red": 0
+              },
+              "serviceDirection": "Bondi Junction",
+              "serviceName": "T4 Eastern Suburbs & Illawarra Line",
+              "serviceNumber": "T4",
+              "serviceTripID": "602N.1542.101.60.T.8.48687250",
+              "startTime": 1513681320,
+              "stops": 2,
+              "ticketWebsiteURL": "https://www.opal.com.au/en/fares-and-benefits/",
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513682099,
+              "segmentTemplateHashCode": 1146586373,
+              "startTime": 1513681560
+            }
+          ],
+          "temporaryURL": "https://darkages.buzzhives.com/satapp/trip/b9d121e1-7e6f-418d-ae52-9242846ae888",
+          "updateURL": "https://darkages.buzzhives.com/satapp/trip/update/b9d121e1-7e6f-418d-ae52-9242846ae888?hash=-2109252095",
+          "weightedScore": 152.2
+        },
+        {
+          "arrive": 1513683899,
+          "availability": "AVAILABLE",
+          "caloriesCost": 41,
+          "carbonCost": 0.1,
+          "currencySymbol": "$",
+          "depart": 1513681613,
+          "hassleCost": 5,
+          "mainSegmentHashCode": -1439549080,
+          "moneyCost": 2.57,
+          "moneyUSDCost": 2.01,
+          "plannedURL": "https://darkages.buzzhives.com/satapp/trip/planned/fcbf5cd7-e4fa-450d-bb6b-2741fa47b1ae",
+          "queryIsLeaveAfter": true,
+          "queryTime": 1513682100,
+          "saveURL": "https://darkages.buzzhives.com/satapp/trip/save/fcbf5cd7-e4fa-450d-bb6b-2741fa47b1ae",
+          "segments": [
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513681920,
+              "segmentTemplateHashCode": -2127659442,
+              "startTime": 1513681613
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513682460,
+              "segmentTemplateHashCode": -1439549080,
+              "serviceColor": {
+                "blue": 239,
+                "green": 181,
+                "red": 0
+              },
+              "serviceDirection": "City Market St",
+              "serviceName": "Balmain East Wharf to City QVB",
+              "serviceNumber": "442",
+              "serviceTripID": "528520",
+              "startTime": 1513681920,
+              "stops": 4,
+              "ticketWebsiteURL": "https://www.opal.com.au/en/fares-and-benefits/",
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513682805,
+              "segmentTemplateHashCode": -2006122914,
+              "startTime": 1513682460
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513683120,
+              "segmentTemplateHashCode": -1268641489,
+              "startTime": 1513682805
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513683360,
+              "platform": "Platform 5",
+              "segmentTemplateHashCode": 1686254291,
+              "serviceColor": {
+                "blue": 163,
+                "green": 90,
+                "red": 0
+              },
+              "serviceDirection": "Bondi Junction",
+              "serviceName": "T4 Eastern Suburbs & Illawarra Line",
+              "serviceNumber": "T4",
+              "serviceTripID": "607J.1542.101.124.T.8.48688649",
+              "startTime": 1513683120,
+              "stops": 2,
+              "ticketWebsiteURL": "https://www.opal.com.au/en/fares-and-benefits/",
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513683899,
+              "segmentTemplateHashCode": 1146586373,
+              "startTime": 1513683360
+            }
+          ],
+          "temporaryURL": "https://darkages.buzzhives.com/satapp/trip/fcbf5cd7-e4fa-450d-bb6b-2741fa47b1ae",
+          "updateURL": "https://darkages.buzzhives.com/satapp/trip/update/fcbf5cd7-e4fa-450d-bb6b-2741fa47b1ae?hash=-2146236663",
+          "weightedScore": 52.2
+        },
+        {
+          "arrive": 1513682699,
+          "availability": "AVAILABLE",
+          "caloriesCost": 41,
+          "carbonCost": 0.1,
+          "currencySymbol": "$",
+          "depart": 1513680713,
+          "hassleCost": 6.5,
+          "mainSegmentHashCode": -1439549080,
+          "moneyCost": 2.57,
+          "moneyUSDCost": 2.01,
+          "plannedURL": "https://darkages.buzzhives.com/satapp/trip/planned/9ee20bbc-8f6b-41b1-acb8-2fc7b465b072",
+          "queryIsLeaveAfter": true,
+          "queryTime": 1513682100,
+          "saveURL": "https://darkages.buzzhives.com/satapp/trip/save/9ee20bbc-8f6b-41b1-acb8-2fc7b465b072",
+          "segments": [
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513681020,
+              "segmentTemplateHashCode": -2127659442,
+              "startTime": 1513680713
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513681560,
+              "segmentTemplateHashCode": -1439549080,
+              "serviceColor": {
+                "blue": 239,
+                "green": 181,
+                "red": 0
+              },
+              "serviceDirection": "City Market St",
+              "serviceName": "Birchgrove to City Art Gallery via QVB",
+              "serviceNumber": "441",
+              "serviceTripID": "528507",
+              "startTime": 1513681020,
+              "stops": 4,
+              "ticketWebsiteURL": "https://www.opal.com.au/en/fares-and-benefits/",
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513681905,
+              "segmentTemplateHashCode": -2006122914,
+              "startTime": 1513681560
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513681920,
+              "segmentTemplateHashCode": -1268641489,
+              "startTime": 1513681905
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513682160,
+              "platform": "Platform 5",
+              "segmentTemplateHashCode": 1686856838,
+              "serviceColor": {
+                "blue": 163,
+                "green": 90,
+                "red": 0
+              },
+              "serviceDirection": "Bondi Junction",
+              "serviceName": "T4 Eastern Suburbs & Illawarra Line",
+              "serviceNumber": "T4",
+              "serviceTripID": "623S.1542.101.120.T.8.48687753",
+              "startTime": 1513681920,
+              "stops": 2,
+              "ticketWebsiteURL": "https://www.opal.com.au/en/fares-and-benefits/",
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513682699,
+              "segmentTemplateHashCode": 1146586373,
+              "startTime": 1513682160
+            }
+          ],
+          "temporaryURL": "https://darkages.buzzhives.com/satapp/trip/9ee20bbc-8f6b-41b1-acb8-2fc7b465b072",
+          "updateURL": "https://darkages.buzzhives.com/satapp/trip/update/9ee20bbc-8f6b-41b1-acb8-2fc7b465b072?hash=13017886",
+          "weightedScore": 103.2
+        }
+      ]
+    },
+    {
+      "frequency": 30,
+      "sources": [
+        {
+          "disclaimer": "© OpenStreetMap contributors\n\nMap data available under the Open Database License. For more information, see http://www.openstreetmap.org/copyright.",
+          "provider": {
+            "name": "OpenStreetMap",
+            "website": "https://www.openstreetmap.org"
+          }
+        },
+        {
+          "provider": {
+            "name": "State Transit Sydney"
+          }
+        }
+      ],
+      "trips": [
+        {
+          "arrive": 1513681698,
+          "availability": "AVAILABLE",
+          "caloriesCost": 32,
+          "carbonCost": 0.1,
+          "currencySymbol": "$",
+          "depart": 1513679901,
+          "hassleCost": 7,
+          "mainSegmentHashCode": 2002977581,
+          "moneyCost": 3.58,
+          "moneyUSDCost": 2.81,
+          "plannedURL": "https://darkages.buzzhives.com/satapp/trip/planned/5f47b0b0-99f9-4eb1-b33e-b292ff7424c2",
+          "queryIsLeaveAfter": true,
+          "queryTime": 1513682100,
+          "saveURL": "https://darkages.buzzhives.com/satapp/trip/save/5f47b0b0-99f9-4eb1-b33e-b292ff7424c2",
+          "segments": [
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513680300,
+              "segmentTemplateHashCode": -683414427,
+              "startTime": 1513679901
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513680780,
+              "segmentTemplateHashCode": 2002977581,
+              "serviceColor": {
+                "blue": 239,
+                "green": 181,
+                "red": 0
+              },
+              "serviceDirection": "City Circular Quay",
+              "serviceName": "Parramatta to City Circular Quay via West Ryde",
+              "serviceNumber": "520",
+              "serviceTripID": "289270",
+              "startTime": 1513680300,
+              "stops": 3,
+              "ticketWebsiteURL": "https://www.opal.com.au/en/fares-and-benefits/",
+              "wheelchairAccessible": false
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513680885,
+              "segmentTemplateHashCode": -1112563561,
+              "startTime": 1513680780
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513680885,
+              "segmentTemplateHashCode": -1268635134,
+              "startTime": 1513680885
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513681320,
+              "platform": "Stand G",
+              "segmentTemplateHashCode": -328265083,
+              "serviceColor": {
+                "blue": 239,
+                "green": 181,
+                "red": 0
+              },
+              "serviceDirection": "Watsons Bay",
+              "serviceName": "Watsons Bay to Walsh Bay via Vaucluse Rd",
+              "serviceNumber": "325",
+              "serviceTripID": "534246",
+              "startTime": 1513680885,
+              "stops": 5,
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513681698,
+              "segmentTemplateHashCode": 1018311186,
+              "startTime": 1513681320
+            }
+          ],
+          "temporaryURL": "https://darkages.buzzhives.com/satapp/trip/5f47b0b0-99f9-4eb1-b33e-b292ff7424c2",
+          "updateURL": "https://darkages.buzzhives.com/satapp/trip/update/5f47b0b0-99f9-4eb1-b33e-b292ff7424c2?hash=-1347300838",
+          "weightedScore": 148.9
+        },
+        {
+          "arrive": 1513679898,
+          "availability": "AVAILABLE",
+          "caloriesCost": 32,
+          "carbonCost": 0.1,
+          "currencySymbol": "$",
+          "depart": 1513678101,
+          "hassleCost": 7,
+          "mainSegmentHashCode": 2002977581,
+          "moneyCost": 3.58,
+          "moneyUSDCost": 2.81,
+          "plannedURL": "https://darkages.buzzhives.com/satapp/trip/planned/4ea28072-86e9-4cd7-b284-4926bcd4c5cf",
+          "queryIsLeaveAfter": true,
+          "queryTime": 1513682100,
+          "saveURL": "https://darkages.buzzhives.com/satapp/trip/save/4ea28072-86e9-4cd7-b284-4926bcd4c5cf",
+          "segments": [
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513678500,
+              "segmentTemplateHashCode": -683414427,
+              "startTime": 1513678101
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513678980,
+              "segmentTemplateHashCode": 2002977581,
+              "serviceColor": {
+                "blue": 239,
+                "green": 181,
+                "red": 0
+              },
+              "serviceDirection": "City Circular Quay",
+              "serviceName": "Parramatta to City Circular Quay via West Ryde",
+              "serviceNumber": "520",
+              "serviceTripID": "285801",
+              "startTime": 1513678500,
+              "stops": 3,
+              "ticketWebsiteURL": "https://www.opal.com.au/en/fares-and-benefits/",
+              "wheelchairAccessible": false
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513679085,
+              "segmentTemplateHashCode": -1112563561,
+              "startTime": 1513678980
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513679085,
+              "segmentTemplateHashCode": -1268635134,
+              "startTime": 1513679085
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513679520,
+              "platform": "Stand G",
+              "segmentTemplateHashCode": -328276336,
+              "serviceColor": {
+                "blue": 239,
+                "green": 181,
+                "red": 0
+              },
+              "serviceDirection": "Watsons Bay",
+              "serviceName": "Watsons Bay to Walsh Bay via Old South Head Rd",
+              "serviceNumber": "324",
+              "serviceTripID": "539278",
+              "startTime": 1513679085,
+              "stops": 5,
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513679898,
+              "segmentTemplateHashCode": 1018311186,
+              "startTime": 1513679520
+            }
+          ],
+          "temporaryURL": "https://darkages.buzzhives.com/satapp/trip/4ea28072-86e9-4cd7-b284-4926bcd4c5cf",
+          "updateURL": "https://darkages.buzzhives.com/satapp/trip/update/4ea28072-86e9-4cd7-b284-4926bcd4c5cf?hash=-1294297681",
+          "weightedScore": 248.9
+        },
+        {
+          "arrive": 1513688838,
+          "availability": "AVAILABLE",
+          "caloriesCost": 32,
+          "carbonCost": 0.1,
+          "currencySymbol": "$",
+          "depart": 1513687059,
+          "hassleCost": 7,
+          "mainSegmentHashCode": 2002977581,
+          "moneyCost": 3.58,
+          "moneyUSDCost": 2.81,
+          "plannedURL": "https://darkages.buzzhives.com/satapp/trip/planned/124db7f7-c28a-4a51-93bb-baeb69e7c4f4",
+          "queryIsLeaveAfter": true,
+          "queryTime": 1513682100,
+          "saveURL": "https://darkages.buzzhives.com/satapp/trip/save/124db7f7-c28a-4a51-93bb-baeb69e7c4f4",
+          "segments": [
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513687458,
+              "segmentTemplateHashCode": -683414427,
+              "startTime": 1513687059
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513687844,
+              "realTime": true,
+              "realtimeVehicle": {
+                "id": "289274",
+                "label": "",
+                "lastUpdate": 1513687121,
+                "location": {
+                  "bearing": 142,
+                  "lat": -33.85077,
+                  "lng": 151.15446
+                },
+                "occupancy": "MANY_SEATS_AVAILABLE",
+                "wifi": false
+              },
+              "segmentTemplateHashCode": 2002977581,
+              "serviceColor": {
+                "blue": 239,
+                "green": 181,
+                "red": 0
+              },
+              "serviceDirection": "City Circular Quay",
+              "serviceName": "Parramatta to City Circular Quay via West Ryde",
+              "serviceNumber": "520",
+              "serviceTripID": "289274",
+              "startTime": 1513687458,
+              "stops": 3,
+              "ticketWebsiteURL": "https://www.opal.com.au/en/fares-and-benefits/",
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513687949,
+              "segmentTemplateHashCode": -1112563561,
+              "startTime": 1513687844
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513687980,
+              "segmentTemplateHashCode": -1268635134,
+              "startTime": 1513687949
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513688460,
+              "platform": "Stand G",
+              "realTime": true,
+              "segmentTemplateHashCode": -328265083,
+              "serviceColor": {
+                "blue": 239,
+                "green": 181,
+                "red": 0
+              },
+              "serviceDirection": "Watsons Bay",
+              "serviceName": "Watsons Bay to Walsh Bay via Vaucluse Rd",
+              "serviceNumber": "325",
+              "serviceTripID": "540179",
+              "startTime": 1513687980,
+              "stops": 5,
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513688838,
+              "segmentTemplateHashCode": 1018311186,
+              "startTime": 1513688460
+            }
+          ],
+          "temporaryURL": "https://darkages.buzzhives.com/satapp/trip/124db7f7-c28a-4a51-93bb-baeb69e7c4f4",
+          "updateURL": "https://darkages.buzzhives.com/satapp/trip/update/124db7f7-c28a-4a51-93bb-baeb69e7c4f4?hash=1887027106",
+          "weightedScore": 33.4
+        },
+        {
+          "arrive": 1513683618,
+          "availability": "AVAILABLE",
+          "caloriesCost": 32,
+          "carbonCost": 0.1,
+          "currencySymbol": "$",
+          "depart": 1513681701,
+          "hassleCost": 5.8,
+          "mainSegmentHashCode": 2002977581,
+          "moneyCost": 3.58,
+          "moneyUSDCost": 2.81,
+          "plannedURL": "https://darkages.buzzhives.com/satapp/trip/planned/3a2e1c58-e673-4ad8-b19a-bd13c97829f4",
+          "queryIsLeaveAfter": true,
+          "queryTime": 1513682100,
+          "saveURL": "https://darkages.buzzhives.com/satapp/trip/save/3a2e1c58-e673-4ad8-b19a-bd13c97829f4",
+          "segments": [
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513682100,
+              "segmentTemplateHashCode": -683414427,
+              "startTime": 1513681701
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513682580,
+              "segmentTemplateHashCode": 2002977581,
+              "serviceColor": {
+                "blue": 239,
+                "green": 181,
+                "red": 0
+              },
+              "serviceDirection": "City Circular Quay",
+              "serviceName": "Parramatta to City Circular Quay via West Ryde",
+              "serviceNumber": "520",
+              "serviceTripID": "289271",
+              "startTime": 1513682100,
+              "stops": 3,
+              "ticketWebsiteURL": "https://www.opal.com.au/en/fares-and-benefits/",
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513682685,
+              "segmentTemplateHashCode": -1112563561,
+              "startTime": 1513682580
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513682760,
+              "segmentTemplateHashCode": -1268635134,
+              "startTime": 1513682685
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513683240,
+              "platform": "Stand G",
+              "segmentTemplateHashCode": -328276336,
+              "serviceColor": {
+                "blue": 239,
+                "green": 181,
+                "red": 0
+              },
+              "serviceDirection": "Watsons Bay",
+              "serviceName": "Watsons Bay to Walsh Bay via Old South Head Rd",
+              "serviceNumber": "324",
+              "serviceTripID": "534852",
+              "startTime": 1513682760,
+              "stops": 5,
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513683618,
+              "segmentTemplateHashCode": 1018311186,
+              "startTime": 1513683240
+            }
+          ],
+          "temporaryURL": "https://darkages.buzzhives.com/satapp/trip/3a2e1c58-e673-4ad8-b19a-bd13c97829f4",
+          "updateURL": "https://darkages.buzzhives.com/satapp/trip/update/3a2e1c58-e673-4ad8-b19a-bd13c97829f4?hash=-260607436",
+          "weightedScore": 47.8
+        },
+        {
+          "arrive": 1513685298,
+          "availability": "AVAILABLE",
+          "caloriesCost": 32,
+          "carbonCost": 0.1,
+          "currencySymbol": "$",
+          "depart": 1513683501,
+          "hassleCost": 6.6,
+          "mainSegmentHashCode": 2002977581,
+          "moneyCost": 3.58,
+          "moneyUSDCost": 2.81,
+          "plannedURL": "https://darkages.buzzhives.com/satapp/trip/planned/52167686-ba8a-43d5-8636-00c0a4280dc5",
+          "queryIsLeaveAfter": true,
+          "queryTime": 1513682100,
+          "saveURL": "https://darkages.buzzhives.com/satapp/trip/save/52167686-ba8a-43d5-8636-00c0a4280dc5",
+          "segments": [
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513683900,
+              "segmentTemplateHashCode": -683414427,
+              "startTime": 1513683501
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513684380,
+              "segmentTemplateHashCode": 2002977581,
+              "serviceColor": {
+                "blue": 239,
+                "green": 181,
+                "red": 0
+              },
+              "serviceDirection": "City Circular Quay",
+              "serviceName": "Parramatta to City Circular Quay via West Ryde",
+              "serviceNumber": "520",
+              "serviceTripID": "289272",
+              "startTime": 1513683900,
+              "stops": 3,
+              "ticketWebsiteURL": "https://www.opal.com.au/en/fares-and-benefits/",
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513684485,
+              "segmentTemplateHashCode": -1112563561,
+              "startTime": 1513684380
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513684485,
+              "segmentTemplateHashCode": -1268635134,
+              "startTime": 1513684485
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513684920,
+              "platform": "Stand G",
+              "segmentTemplateHashCode": -328265083,
+              "serviceColor": {
+                "blue": 239,
+                "green": 181,
+                "red": 0
+              },
+              "serviceDirection": "Watsons Bay",
+              "serviceName": "Watsons Bay to Walsh Bay via Vaucluse Rd",
+              "serviceNumber": "325",
+              "serviceTripID": "531211",
+              "startTime": 1513684485,
+              "stops": 5,
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513685298,
+              "segmentTemplateHashCode": 1018311186,
+              "startTime": 1513684920
+            }
+          ],
+          "temporaryURL": "https://darkages.buzzhives.com/satapp/trip/52167686-ba8a-43d5-8636-00c0a4280dc5",
+          "updateURL": "https://darkages.buzzhives.com/satapp/trip/update/52167686-ba8a-43d5-8636-00c0a4280dc5?hash=1160612970",
+          "weightedScore": 23.1
+        },
+        {
+          "arrive": 1513687807,
+          "availability": "AVAILABLE",
+          "caloriesCost": 32,
+          "carbonCost": 0.1,
+          "currencySymbol": "$",
+          "depart": 1513685361,
+          "hassleCost": 7,
+          "mainSegmentHashCode": 2003049656,
+          "moneyCost": 3.58,
+          "moneyUSDCost": 2.81,
+          "plannedURL": "https://darkages.buzzhives.com/satapp/trip/planned/47675d87-bebf-4e2a-8176-c80cdd538adb",
+          "queryIsLeaveAfter": true,
+          "queryTime": 1513682100,
+          "saveURL": "https://darkages.buzzhives.com/satapp/trip/save/47675d87-bebf-4e2a-8176-c80cdd538adb",
+          "segments": [
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513685760,
+              "segmentTemplateHashCode": -683414427,
+              "startTime": 1513685361
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513686240,
+              "segmentTemplateHashCode": 2003049656,
+              "serviceColor": {
+                "blue": 239,
+                "green": 181,
+                "red": 0
+              },
+              "serviceDirection": "City Park St",
+              "serviceName": "Macquarie University to City Domain via East Ryde",
+              "serviceNumber": "506",
+              "serviceTripID": "510879",
+              "startTime": 1513685760,
+              "stops": 3,
+              "ticketWebsiteURL": "https://www.opal.com.au/en/fares-and-benefits/",
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513686345,
+              "segmentTemplateHashCode": -1112563561,
+              "startTime": 1513686240
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513687082,
+              "segmentTemplateHashCode": -1268635134,
+              "startTime": 1513686345
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513687429,
+              "platform": "Stand G",
+              "realTime": true,
+              "realtimeVehicle": {
+                "id": "534853",
+                "label": "",
+                "lastUpdate": 1513687111,
+                "location": {
+                  "bearing": 101,
+                  "lat": -33.87367,
+                  "lng": 151.21225
+                },
+                "occupancy": "MANY_SEATS_AVAILABLE",
+                "wifi": false
+              },
+              "segmentTemplateHashCode": -328276336,
+              "serviceColor": {
+                "blue": 239,
+                "green": 181,
+                "red": 0
+              },
+              "serviceDirection": "Watsons Bay",
+              "serviceName": "Watsons Bay to Walsh Bay via Old South Head Rd",
+              "serviceNumber": "324",
+              "serviceTripID": "534853",
+              "startTime": 1513687082,
+              "stops": 5,
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513687807,
+              "segmentTemplateHashCode": 1018311186,
+              "startTime": 1513687429
+            }
+          ],
+          "temporaryURL": "https://darkages.buzzhives.com/satapp/trip/47675d87-bebf-4e2a-8176-c80cdd538adb",
+          "updateURL": "https://darkages.buzzhives.com/satapp/trip/update/47675d87-bebf-4e2a-8176-c80cdd538adb?hash=1457524397",
+          "weightedScore": 28.6
+        }
+      ]
+    },
+    {
+      "frequency": 35,
+      "sources": [
+        {
+          "disclaimer": "© OpenStreetMap contributors\n\nMap data available under the Open Database License. For more information, see http://www.openstreetmap.org/copyright.",
+          "provider": {
+            "name": "OpenStreetMap",
+            "website": "https://www.openstreetmap.org"
+          }
+        },
+        {
+          "provider": {
+            "name": "State Transit Sydney"
+          }
+        }
+      ],
+      "trips": [
+        {
+          "arrive": 1513690165,
+          "availability": "AVAILABLE",
+          "caloriesCost": 25,
+          "carbonCost": 0.1,
+          "currencySymbol": "$",
+          "depart": 1513687059,
+          "hassleCost": 5,
+          "mainSegmentHashCode": 2002977581,
+          "moneyCost": 3.58,
+          "moneyUSDCost": 2.81,
+          "plannedURL": "https://darkages.buzzhives.com/satapp/trip/planned/24da6ec8-371d-464c-a2fa-b9a415d5b5f8",
+          "queryIsLeaveAfter": true,
+          "queryTime": 1513682100,
+          "saveURL": "https://darkages.buzzhives.com/satapp/trip/save/24da6ec8-371d-464c-a2fa-b9a415d5b5f8",
+          "segments": [
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513687458,
+              "segmentTemplateHashCode": -683414427,
+              "startTime": 1513687059
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513687844,
+              "realTime": true,
+              "realtimeVehicle": {
+                "id": "289274",
+                "label": "",
+                "lastUpdate": 1513687121,
+                "location": {
+                  "bearing": 142,
+                  "lat": -33.85077,
+                  "lng": 151.15446
+                },
+                "occupancy": "MANY_SEATS_AVAILABLE",
+                "wifi": false
+              },
+              "segmentTemplateHashCode": 2002977581,
+              "serviceColor": {
+                "blue": 239,
+                "green": 181,
+                "red": 0
+              },
+              "serviceDirection": "City Circular Quay",
+              "serviceName": "Parramatta to City Circular Quay via West Ryde",
+              "serviceNumber": "520",
+              "serviceTripID": "289274",
+              "startTime": 1513687458,
+              "stops": 3,
+              "ticketWebsiteURL": "https://www.opal.com.au/en/fares-and-benefits/",
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513687949,
+              "segmentTemplateHashCode": -1112563561,
+              "startTime": 1513687844
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513688940,
+              "segmentTemplateHashCode": -1268635134,
+              "startTime": 1513687949
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513689960,
+              "platform": "Stand G",
+              "segmentTemplateHashCode": -421553662,
+              "serviceColor": {
+                "blue": 239,
+                "green": 181,
+                "red": 0
+              },
+              "serviceDirection": "Railway Sq",
+              "serviceName": "Millers Point to Central Railway Square via Darlinghurst & Potts Point",
+              "serviceNumber": "311",
+              "serviceTripID": "570253",
+              "startTime": 1513688940,
+              "stops": 17,
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513690165,
+              "segmentTemplateHashCode": -1226319735,
+              "startTime": 1513689960
+            }
+          ],
+          "temporaryURL": "https://darkages.buzzhives.com/satapp/trip/24da6ec8-371d-464c-a2fa-b9a415d5b5f8",
+          "updateURL": "https://darkages.buzzhives.com/satapp/trip/update/24da6ec8-371d-464c-a2fa-b9a415d5b5f8?hash=-1773727503",
+          "weightedScore": 33.9
+        },
+        {
+          "arrive": 1513683025,
+          "availability": "AVAILABLE",
+          "caloriesCost": 25,
+          "carbonCost": 0.1,
+          "currencySymbol": "$",
+          "depart": 1513680561,
+          "hassleCost": 5,
+          "mainSegmentHashCode": 2003828066,
+          "moneyCost": 3.58,
+          "moneyUSDCost": 2.81,
+          "plannedURL": "https://darkages.buzzhives.com/satapp/trip/planned/db0001ea-b531-446e-8e22-c3751068cb41",
+          "queryIsLeaveAfter": true,
+          "queryTime": 1513682100,
+          "saveURL": "https://darkages.buzzhives.com/satapp/trip/save/db0001ea-b531-446e-8e22-c3751068cb41",
+          "segments": [
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513680960,
+              "segmentTemplateHashCode": -683414427,
+              "startTime": 1513680561
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513681440,
+              "segmentTemplateHashCode": 2003828066,
+              "serviceColor": {
+                "blue": 239,
+                "green": 181,
+                "red": 0
+              },
+              "serviceDirection": "City Park St",
+              "serviceName": "Chiswick to City Domain",
+              "serviceNumber": "504",
+              "serviceTripID": "510759",
+              "startTime": 1513680960,
+              "stops": 3,
+              "ticketWebsiteURL": "https://www.opal.com.au/en/fares-and-benefits/",
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513681545,
+              "segmentTemplateHashCode": -1112563561,
+              "startTime": 1513681440
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513681800,
+              "segmentTemplateHashCode": -1268635134,
+              "startTime": 1513681545
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513682820,
+              "platform": "Stand G",
+              "segmentTemplateHashCode": -421553662,
+              "serviceColor": {
+                "blue": 239,
+                "green": 181,
+                "red": 0
+              },
+              "serviceDirection": "Railway Sq",
+              "serviceName": "Millers Point to Central Railway Square via Darlinghurst & Potts Point",
+              "serviceNumber": "311",
+              "serviceTripID": "575724",
+              "startTime": 1513681800,
+              "stops": 17,
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513683025,
+              "segmentTemplateHashCode": -1226319735,
+              "startTime": 1513682820
+            }
+          ],
+          "temporaryURL": "https://darkages.buzzhives.com/satapp/trip/db0001ea-b531-446e-8e22-c3751068cb41",
+          "updateURL": "https://darkages.buzzhives.com/satapp/trip/update/db0001ea-b531-446e-8e22-c3751068cb41?hash=1646792340",
+          "weightedScore": 111.5
+        },
+        {
+          "arrive": 1513684825,
+          "availability": "AVAILABLE",
+          "caloriesCost": 25,
+          "carbonCost": 0.1,
+          "currencySymbol": "$",
+          "depart": 1513682601,
+          "hassleCost": 6.2,
+          "mainSegmentHashCode": 2003049656,
+          "moneyCost": 3.58,
+          "moneyUSDCost": 2.81,
+          "plannedURL": "https://darkages.buzzhives.com/satapp/trip/planned/37cb28d2-1070-4dd5-bd59-0c1ba65489bf",
+          "queryIsLeaveAfter": true,
+          "queryTime": 1513682100,
+          "saveURL": "https://darkages.buzzhives.com/satapp/trip/save/37cb28d2-1070-4dd5-bd59-0c1ba65489bf",
+          "segments": [
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513683000,
+              "segmentTemplateHashCode": -683414427,
+              "startTime": 1513682601
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513683480,
+              "segmentTemplateHashCode": 2003049656,
+              "serviceColor": {
+                "blue": 239,
+                "green": 181,
+                "red": 0
+              },
+              "serviceDirection": "City Park St",
+              "serviceName": "Macquarie University to City Domain via East Ryde",
+              "serviceNumber": "506",
+              "serviceTripID": "510878",
+              "startTime": 1513683000,
+              "stops": 3,
+              "ticketWebsiteURL": "https://www.opal.com.au/en/fares-and-benefits/",
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513683585,
+              "segmentTemplateHashCode": -1112563561,
+              "startTime": 1513683480
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513683600,
+              "segmentTemplateHashCode": -1268635134,
+              "startTime": 1513683585
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513684620,
+              "platform": "Stand G",
+              "segmentTemplateHashCode": -421553662,
+              "serviceColor": {
+                "blue": 239,
+                "green": 181,
+                "red": 0
+              },
+              "serviceDirection": "Railway Sq",
+              "serviceName": "Millers Point to Central Railway Square via Darlinghurst & Potts Point",
+              "serviceNumber": "311",
+              "serviceTripID": "575725",
+              "startTime": 1513683600,
+              "stops": 17,
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513684825,
+              "segmentTemplateHashCode": -1226319735,
+              "startTime": 1513684620
+            }
+          ],
+          "temporaryURL": "https://darkages.buzzhives.com/satapp/trip/37cb28d2-1070-4dd5-bd59-0c1ba65489bf",
+          "updateURL": "https://darkages.buzzhives.com/satapp/trip/update/37cb28d2-1070-4dd5-bd59-0c1ba65489bf?hash=-660196417",
+          "weightedScore": 21.1
+        },
+        {
+          "arrive": 1513681285,
+          "availability": "AVAILABLE",
+          "caloriesCost": 25,
+          "carbonCost": 0.1,
+          "currencySymbol": "$",
+          "depart": 1513679001,
+          "hassleCost": 5.8,
+          "mainSegmentHashCode": 2002977581,
+          "moneyCost": 3.58,
+          "moneyUSDCost": 2.81,
+          "plannedURL": "https://darkages.buzzhives.com/satapp/trip/planned/1cc4b28e-1fb2-4007-ae27-8f196266ead4",
+          "queryIsLeaveAfter": true,
+          "queryTime": 1513682100,
+          "saveURL": "https://darkages.buzzhives.com/satapp/trip/save/1cc4b28e-1fb2-4007-ae27-8f196266ead4",
+          "segments": [
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513679400,
+              "segmentTemplateHashCode": -683414427,
+              "startTime": 1513679001
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513679880,
+              "segmentTemplateHashCode": 2002977581,
+              "serviceColor": {
+                "blue": 239,
+                "green": 181,
+                "red": 0
+              },
+              "serviceDirection": "City Circular Quay",
+              "serviceName": "Macquarie University to City Circular Quay via Putney",
+              "serviceNumber": "507",
+              "serviceTripID": "253959",
+              "startTime": 1513679400,
+              "stops": 3,
+              "ticketWebsiteURL": "https://www.opal.com.au/en/fares-and-benefits/",
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513679985,
+              "segmentTemplateHashCode": -1112563561,
+              "startTime": 1513679880
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513680060,
+              "segmentTemplateHashCode": -1268635134,
+              "startTime": 1513679985
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513681080,
+              "platform": "Stand G",
+              "segmentTemplateHashCode": -421553662,
+              "serviceColor": {
+                "blue": 239,
+                "green": 181,
+                "red": 0
+              },
+              "serviceDirection": "Railway Sq",
+              "serviceName": "Millers Point to Central Railway Square via Darlinghurst & Potts Point",
+              "serviceNumber": "311",
+              "serviceTripID": "573727",
+              "startTime": 1513680060,
+              "stops": 17,
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513681285,
+              "segmentTemplateHashCode": -1226319735,
+              "startTime": 1513681080
+            }
+          ],
+          "temporaryURL": "https://darkages.buzzhives.com/satapp/trip/1cc4b28e-1fb2-4007-ae27-8f196266ead4",
+          "updateURL": "https://darkages.buzzhives.com/satapp/trip/update/1cc4b28e-1fb2-4007-ae27-8f196266ead4?hash=-1283585604",
+          "weightedScore": 198.6
+        },
+        {
+          "arrive": 1513679605,
+          "availability": "AVAILABLE",
+          "caloriesCost": 25,
+          "carbonCost": 0.1,
+          "currencySymbol": "$",
+          "depart": 1513677201,
+          "hassleCost": 5.8,
+          "mainSegmentHashCode": 2002977581,
+          "moneyCost": 3.58,
+          "moneyUSDCost": 2.81,
+          "plannedURL": "https://darkages.buzzhives.com/satapp/trip/planned/79cbdce5-f94e-493f-a180-2d736b7c1990",
+          "queryIsLeaveAfter": true,
+          "queryTime": 1513682100,
+          "saveURL": "https://darkages.buzzhives.com/satapp/trip/save/79cbdce5-f94e-493f-a180-2d736b7c1990",
+          "segments": [
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513677600,
+              "segmentTemplateHashCode": -683414427,
+              "startTime": 1513677201
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513678080,
+              "segmentTemplateHashCode": 2002977581,
+              "serviceColor": {
+                "blue": 239,
+                "green": 181,
+                "red": 0
+              },
+              "serviceDirection": "City Circular Quay",
+              "serviceName": "Eastwood to City Circular Quay",
+              "serviceNumber": "515",
+              "serviceTripID": "528007",
+              "startTime": 1513677600,
+              "stops": 3,
+              "ticketWebsiteURL": "https://www.opal.com.au/en/fares-and-benefits/",
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513678185,
+              "segmentTemplateHashCode": -1112563561,
+              "startTime": 1513678080
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513678260,
+              "segmentTemplateHashCode": -1268635134,
+              "startTime": 1513678185
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513679400,
+              "platform": "Stand G",
+              "segmentTemplateHashCode": -421553662,
+              "serviceColor": {
+                "blue": 239,
+                "green": 181,
+                "red": 0
+              },
+              "serviceDirection": "Railway Sq",
+              "serviceName": "Millers Point to Central Railway Square via Darlinghurst & Potts Point",
+              "serviceNumber": "311",
+              "serviceTripID": "572132",
+              "startTime": 1513678260,
+              "stops": 17,
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513679605,
+              "segmentTemplateHashCode": -1226319735,
+              "startTime": 1513679400
+            }
+          ],
+          "temporaryURL": "https://darkages.buzzhives.com/satapp/trip/79cbdce5-f94e-493f-a180-2d736b7c1990",
+          "updateURL": "https://darkages.buzzhives.com/satapp/trip/update/79cbdce5-f94e-493f-a180-2d736b7c1990?hash=-2117765380",
+          "weightedScore": 299.1
+        },
+        {
+          "arrive": 1513687348,
+          "availability": "AVAILABLE",
+          "caloriesCost": 25,
+          "carbonCost": 0.1,
+          "currencySymbol": "$",
+          "depart": 1513685361,
+          "hassleCost": 6.6,
+          "mainSegmentHashCode": 2003049656,
+          "moneyCost": 3.58,
+          "moneyUSDCost": 2.81,
+          "plannedURL": "https://darkages.buzzhives.com/satapp/trip/planned/6498574d-70d3-4f3f-a436-ce27e4e88069",
+          "queryIsLeaveAfter": true,
+          "queryTime": 1513682100,
+          "saveURL": "https://darkages.buzzhives.com/satapp/trip/save/6498574d-70d3-4f3f-a436-ce27e4e88069",
+          "segments": [
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513685760,
+              "segmentTemplateHashCode": -683414427,
+              "startTime": 1513685361
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513686240,
+              "segmentTemplateHashCode": 2003049656,
+              "serviceColor": {
+                "blue": 239,
+                "green": 181,
+                "red": 0
+              },
+              "serviceDirection": "City Park St",
+              "serviceName": "Macquarie University to City Domain via East Ryde",
+              "serviceNumber": "506",
+              "serviceTripID": "510879",
+              "startTime": 1513685760,
+              "stops": 3,
+              "ticketWebsiteURL": "https://www.opal.com.au/en/fares-and-benefits/",
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513686345,
+              "segmentTemplateHashCode": -1112563561,
+              "startTime": 1513686240
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513686366,
+              "segmentTemplateHashCode": -1268635134,
+              "startTime": 1513686345
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513687143,
+              "platform": "Stand G",
+              "realTime": true,
+              "realtimeVehicle": {
+                "id": "574439",
+                "label": "",
+                "lastUpdate": 1513687102,
+                "location": {
+                  "bearing": 245,
+                  "lat": -33.8734,
+                  "lng": 151.22414
+                },
+                "occupancy": "MANY_SEATS_AVAILABLE",
+                "wifi": false
+              },
+              "segmentTemplateHashCode": -421553662,
+              "serviceColor": {
+                "blue": 239,
+                "green": 181,
+                "red": 0
+              },
+              "serviceDirection": "Railway Sq",
+              "serviceName": "Millers Point to Central Railway Square via Darlinghurst & Potts Point",
+              "serviceNumber": "311",
+              "serviceTripID": "574439",
+              "startTime": 1513686366,
+              "stops": 17,
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513687348,
+              "segmentTemplateHashCode": -1226319735,
+              "startTime": 1513687143
+            }
+          ],
+          "temporaryURL": "https://darkages.buzzhives.com/satapp/trip/6498574d-70d3-4f3f-a436-ce27e4e88069",
+          "updateURL": "https://darkages.buzzhives.com/satapp/trip/update/6498574d-70d3-4f3f-a436-ce27e4e88069?hash=-446536695",
+          "weightedScore": 29.1
+        }
+      ]
+    },
+    {
+      "frequency": 30,
+      "sources": [
+        {
+          "disclaimer": "© OpenStreetMap contributors\n\nMap data available under the Open Database License. For more information, see http://www.openstreetmap.org/copyright.",
+          "provider": {
+            "name": "OpenStreetMap",
+            "website": "https://www.openstreetmap.org"
+          }
+        },
+        {
+          "provider": {
+            "name": "State Transit Sydney"
+          }
+        }
+      ],
+      "trips": [
+        {
+          "arrive": 1513683881,
+          "availability": "AVAILABLE",
+          "caloriesCost": 30,
+          "carbonCost": 0.1,
+          "currencySymbol": "$",
+          "depart": 1513680861,
+          "hassleCost": 5,
+          "mainSegmentHashCode": 2003497269,
+          "moneyCost": 3.58,
+          "moneyUSDCost": 2.81,
+          "plannedURL": "https://darkages.buzzhives.com/satapp/trip/planned/f104e728-d117-42d8-9cdf-26e1e8ee6b16",
+          "queryIsLeaveAfter": true,
+          "queryTime": 1513682100,
+          "saveURL": "https://darkages.buzzhives.com/satapp/trip/save/f104e728-d117-42d8-9cdf-26e1e8ee6b16",
+          "segments": [
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513681260,
+              "segmentTemplateHashCode": -683414427,
+              "startTime": 1513680861
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513681680,
+              "segmentTemplateHashCode": 2003497269,
+              "serviceColor": {
+                "blue": 239,
+                "green": 181,
+                "red": 0
+              },
+              "serviceDirection": "Central Station Belmore Park",
+              "serviceName": "West Ryde to Central Pitt St via Pyrmont & Ultimo",
+              "serviceNumber": "501",
+              "serviceTripID": "511809",
+              "startTime": 1513681260,
+              "stops": 5,
+              "ticketWebsiteURL": "https://www.opal.com.au/en/fares-and-benefits/",
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513682460,
+              "segmentTemplateHashCode": -1268639102,
+              "startTime": 1513681680
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513683540,
+              "segmentTemplateHashCode": -921914676,
+              "serviceColor": {
+                "blue": 239,
+                "green": 181,
+                "red": 0
+              },
+              "serviceDirection": "Bondi Junction",
+              "serviceName": "Bondi Junction to Pyrmont",
+              "serviceNumber": "389",
+              "serviceTripID": "556327",
+              "startTime": 1513682460,
+              "stops": 8,
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513683881,
+              "segmentTemplateHashCode": 1451374735,
+              "startTime": 1513683540
+            }
+          ],
+          "temporaryURL": "https://darkages.buzzhives.com/satapp/trip/f104e728-d117-42d8-9cdf-26e1e8ee6b16",
+          "updateURL": "https://darkages.buzzhives.com/satapp/trip/update/f104e728-d117-42d8-9cdf-26e1e8ee6b16?hash=767077939",
+          "weightedScore": 96.5
+        },
+        {
+          "arrive": 1513687034,
+          "availability": "AVAILABLE",
+          "caloriesCost": 30,
+          "carbonCost": 0.1,
+          "currencySymbol": "$",
+          "depart": 1513684581,
+          "hassleCost": 5,
+          "mainSegmentHashCode": 2003497269,
+          "moneyCost": 3.58,
+          "moneyUSDCost": 2.81,
+          "plannedURL": "https://darkages.buzzhives.com/satapp/trip/planned/d57dda5f-f641-4e3c-a27b-75bd677885a9",
+          "queryIsLeaveAfter": true,
+          "queryTime": 1513682100,
+          "saveURL": "https://darkages.buzzhives.com/satapp/trip/save/d57dda5f-f641-4e3c-a27b-75bd677885a9",
+          "segments": [
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513684980,
+              "segmentTemplateHashCode": -683414427,
+              "startTime": 1513684581
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513685400,
+              "segmentTemplateHashCode": 2003497269,
+              "serviceColor": {
+                "blue": 239,
+                "green": 181,
+                "red": 0
+              },
+              "serviceDirection": "Central Station Belmore Park",
+              "serviceName": "West Ryde to Central Pitt St via Pyrmont & Ultimo",
+              "serviceNumber": "501",
+              "serviceTripID": "529688",
+              "startTime": 1513684980,
+              "stops": 5,
+              "ticketWebsiteURL": "https://www.opal.com.au/en/fares-and-benefits/",
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513685933,
+              "segmentTemplateHashCode": -1268639102,
+              "startTime": 1513685400
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513686693,
+              "realTime": true,
+              "realtimeVehicle": {
+                "id": "556329",
+                "label": "",
+                "lastUpdate": 1513687114,
+                "location": {
+                  "bearing": 87,
+                  "lat": -33.88979,
+                  "lng": 151.24156
+                },
+                "occupancy": "MANY_SEATS_AVAILABLE",
+                "wifi": false
+              },
+              "segmentTemplateHashCode": -921914676,
+              "serviceColor": {
+                "blue": 239,
+                "green": 181,
+                "red": 0
+              },
+              "serviceDirection": "Bondi Junction",
+              "serviceName": "Bondi Junction to Pyrmont",
+              "serviceNumber": "389",
+              "serviceTripID": "556329",
+              "startTime": 1513685933,
+              "stops": 8,
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513687034,
+              "segmentTemplateHashCode": 1451374735,
+              "startTime": 1513686693
+            }
+          ],
+          "temporaryURL": "https://darkages.buzzhives.com/satapp/trip/d57dda5f-f641-4e3c-a27b-75bd677885a9",
+          "updateURL": "https://darkages.buzzhives.com/satapp/trip/update/d57dda5f-f641-4e3c-a27b-75bd677885a9?hash=-1678184456",
+          "weightedScore": 26.9
+        },
+        {
+          "arrive": 1513685381,
+          "availability": "AVAILABLE",
+          "caloriesCost": 30,
+          "carbonCost": 0.1,
+          "currencySymbol": "$",
+          "depart": 1513682781,
+          "hassleCost": 5,
+          "mainSegmentHashCode": 2003497269,
+          "moneyCost": 3.58,
+          "moneyUSDCost": 2.81,
+          "plannedURL": "https://darkages.buzzhives.com/satapp/trip/planned/dc3c629a-06e8-4c96-b5cc-b658e23bed82",
+          "queryIsLeaveAfter": true,
+          "queryTime": 1513682100,
+          "saveURL": "https://darkages.buzzhives.com/satapp/trip/save/dc3c629a-06e8-4c96-b5cc-b658e23bed82",
+          "segments": [
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513683180,
+              "segmentTemplateHashCode": -683414427,
+              "startTime": 1513682781
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513683600,
+              "segmentTemplateHashCode": 2003497269,
+              "serviceColor": {
+                "blue": 239,
+                "green": 181,
+                "red": 0
+              },
+              "serviceDirection": "Central Station Belmore Park",
+              "serviceName": "West Ryde to Central Pitt St via Pyrmont & Ultimo",
+              "serviceNumber": "501",
+              "serviceTripID": "529687",
+              "startTime": 1513683180,
+              "stops": 5,
+              "ticketWebsiteURL": "https://www.opal.com.au/en/fares-and-benefits/",
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513683960,
+              "segmentTemplateHashCode": -1268639102,
+              "startTime": 1513683600
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513685040,
+              "segmentTemplateHashCode": -921914676,
+              "serviceColor": {
+                "blue": 239,
+                "green": 181,
+                "red": 0
+              },
+              "serviceDirection": "Bondi Junction",
+              "serviceName": "Bondi Junction to Pyrmont",
+              "serviceNumber": "389",
+              "serviceTripID": "556328",
+              "startTime": 1513683960,
+              "stops": 8,
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513685381,
+              "segmentTemplateHashCode": 1451374735,
+              "startTime": 1513685040
+            }
+          ],
+          "temporaryURL": "https://darkages.buzzhives.com/satapp/trip/dc3c629a-06e8-4c96-b5cc-b658e23bed82",
+          "updateURL": "https://darkages.buzzhives.com/satapp/trip/update/dc3c629a-06e8-4c96-b5cc-b658e23bed82?hash=2144945763",
+          "weightedScore": 21.9
+        },
+        {
+          "arrive": 1513680281,
+          "availability": "AVAILABLE",
+          "caloriesCost": 30,
+          "carbonCost": 0.1,
+          "currencySymbol": "$",
+          "depart": 1513677261,
+          "hassleCost": 5,
+          "mainSegmentHashCode": 2003497269,
+          "moneyCost": 3.58,
+          "moneyUSDCost": 2.81,
+          "plannedURL": "https://darkages.buzzhives.com/satapp/trip/planned/833d403c-e729-4d46-a278-52c290dea998",
+          "queryIsLeaveAfter": true,
+          "queryTime": 1513682100,
+          "saveURL": "https://darkages.buzzhives.com/satapp/trip/save/833d403c-e729-4d46-a278-52c290dea998",
+          "segments": [
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513677660,
+              "segmentTemplateHashCode": -683414427,
+              "startTime": 1513677261
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513678080,
+              "segmentTemplateHashCode": 2003497269,
+              "serviceColor": {
+                "blue": 239,
+                "green": 181,
+                "red": 0
+              },
+              "serviceDirection": "Central Station Belmore Park",
+              "serviceName": "West Ryde to Central Pitt St via Pyrmont & Ultimo",
+              "serviceNumber": "501",
+              "serviceTripID": "511807",
+              "startTime": 1513677660,
+              "stops": 5,
+              "ticketWebsiteURL": "https://www.opal.com.au/en/fares-and-benefits/",
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513678860,
+              "segmentTemplateHashCode": -1268639102,
+              "startTime": 1513678080
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513679940,
+              "segmentTemplateHashCode": -921914676,
+              "serviceColor": {
+                "blue": 239,
+                "green": 181,
+                "red": 0
+              },
+              "serviceDirection": "Bondi Junction",
+              "serviceName": "Bondi Junction to Pyrmont",
+              "serviceNumber": "389",
+              "serviceTripID": "553397",
+              "startTime": 1513678860,
+              "stops": 8,
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513680281,
+              "segmentTemplateHashCode": 1451374735,
+              "startTime": 1513679940
+            }
+          ],
+          "temporaryURL": "https://darkages.buzzhives.com/satapp/trip/833d403c-e729-4d46-a278-52c290dea998",
+          "updateURL": "https://darkages.buzzhives.com/satapp/trip/update/833d403c-e729-4d46-a278-52c290dea998?hash=-738327854",
+          "weightedScore": 296.5
+        },
+        {
+          "arrive": 1513688981,
+          "availability": "AVAILABLE",
+          "caloriesCost": 30,
+          "carbonCost": 0.1,
+          "currencySymbol": "$",
+          "depart": 1513686744,
+          "hassleCost": 5,
+          "mainSegmentHashCode": 2003497269,
+          "moneyCost": 3.58,
+          "moneyUSDCost": 2.81,
+          "plannedURL": "https://darkages.buzzhives.com/satapp/trip/planned/cad91e80-dbea-4d6d-af09-e49b9dbb4194",
+          "queryIsLeaveAfter": true,
+          "queryTime": 1513682100,
+          "saveURL": "https://darkages.buzzhives.com/satapp/trip/save/cad91e80-dbea-4d6d-af09-e49b9dbb4194",
+          "segments": [
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513687143,
+              "segmentTemplateHashCode": -683414427,
+              "startTime": 1513686744
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513687667,
+              "realTime": true,
+              "realtimeVehicle": {
+                "id": "529689",
+                "label": "",
+                "lastUpdate": 1513687120,
+                "location": {
+                  "bearing": 134,
+                  "lat": -33.86441,
+                  "lng": 151.17096
+                },
+                "occupancy": "MANY_SEATS_AVAILABLE",
+                "wifi": false
+              },
+              "segmentTemplateHashCode": 2003497269,
+              "serviceColor": {
+                "blue": 239,
+                "green": 181,
+                "red": 0
+              },
+              "serviceDirection": "Central Station Belmore Park",
+              "serviceName": "West Ryde to Central Pitt St via Pyrmont & Ultimo",
+              "serviceNumber": "501",
+              "serviceTripID": "529689",
+              "startTime": 1513687143,
+              "stops": 5,
+              "ticketWebsiteURL": "https://www.opal.com.au/en/fares-and-benefits/",
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513687560,
+              "segmentTemplateHashCode": -1268639102,
+              "startTime": 1513687667
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513688640,
+              "realTime": true,
+              "segmentTemplateHashCode": -921914676,
+              "serviceColor": {
+                "blue": 239,
+                "green": 181,
+                "red": 0
+              },
+              "serviceDirection": "Bondi Junction",
+              "serviceName": "Bondi Junction to Pyrmont",
+              "serviceNumber": "389",
+              "serviceTripID": "556330",
+              "startTime": 1513687560,
+              "stops": 8,
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513688981,
+              "segmentTemplateHashCode": 1451374735,
+              "startTime": 1513688640
+            }
+          ],
+          "temporaryURL": "https://darkages.buzzhives.com/satapp/trip/cad91e80-dbea-4d6d-af09-e49b9dbb4194",
+          "updateURL": "https://darkages.buzzhives.com/satapp/trip/update/cad91e80-dbea-4d6d-af09-e49b9dbb4194?hash=-413887499",
+          "weightedScore": 31.9
+        },
+        {
+          "arrive": 1513681481,
+          "availability": "AVAILABLE",
+          "caloriesCost": 30,
+          "carbonCost": 0.1,
+          "currencySymbol": "$",
+          "depart": 1513679061,
+          "hassleCost": 5.8,
+          "mainSegmentHashCode": 2003497269,
+          "moneyCost": 3.58,
+          "moneyUSDCost": 2.81,
+          "plannedURL": "https://darkages.buzzhives.com/satapp/trip/planned/a8ad9dfc-8d2d-405a-a30a-c87deae02acc",
+          "queryIsLeaveAfter": true,
+          "queryTime": 1513682100,
+          "saveURL": "https://darkages.buzzhives.com/satapp/trip/save/a8ad9dfc-8d2d-405a-a30a-c87deae02acc",
+          "segments": [
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513679460,
+              "segmentTemplateHashCode": -683414427,
+              "startTime": 1513679061
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513679880,
+              "segmentTemplateHashCode": 2003497269,
+              "serviceColor": {
+                "blue": 239,
+                "green": 181,
+                "red": 0
+              },
+              "serviceDirection": "Central Station Belmore Park",
+              "serviceName": "West Ryde to Central Pitt St via Pyrmont & Ultimo",
+              "serviceNumber": "501",
+              "serviceTripID": "511808",
+              "startTime": 1513679460,
+              "stops": 5,
+              "ticketWebsiteURL": "https://www.opal.com.au/en/fares-and-benefits/",
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513680060,
+              "segmentTemplateHashCode": -1268639102,
+              "startTime": 1513679880
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513681140,
+              "segmentTemplateHashCode": -921914676,
+              "serviceColor": {
+                "blue": 239,
+                "green": 181,
+                "red": 0
+              },
+              "serviceDirection": "Bondi Junction",
+              "serviceName": "Bondi Junction to Pyrmont",
+              "serviceNumber": "389",
+              "serviceTripID": "556325",
+              "startTime": 1513680060,
+              "stops": 8,
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1513681481,
+              "segmentTemplateHashCode": 1451374735,
+              "startTime": 1513681140
+            }
+          ],
+          "temporaryURL": "https://darkages.buzzhives.com/satapp/trip/a8ad9dfc-8d2d-405a-a30a-c87deae02acc",
+          "updateURL": "https://darkages.buzzhives.com/satapp/trip/update/a8ad9dfc-8d2d-405a-a30a-c87deae02acc?hash=945805601",
+          "weightedScore": 196.3
+        }
+      ]
+    }
+  ],
+  "realTimeStamp": 1513687124,
+  "region": "AU_NSW_Sydney",
+  "regions": [
+    "AU_NSW_Sydney"
+  ],
+  "segmentTemplates": [
+    {
+      "action": "<TIME>: Walk",
+      "from": {
+        "address": "Mansfield Street & Crescent Street",
+        "class": "Location",
+        "lat": -33.86464,
+        "lng": 151.17496,
+        "timezone": "Australia/Sydney"
+      },
+      "hashCode": -2127659442,
+      "metres": 362,
+      "mini": {
+        "description": "Mullens St opp Goodsir St",
+        "instruction": "Walk",
+        "mainValue": "400m"
+      },
+      "modeIdentifier": "wa_wal",
+      "modeInfo": {
+        "alt": "Walk",
+        "color": {
+          "blue": 99,
+          "green": 199,
+          "red": 30
+        },
+        "identifier": "wa_wal",
+        "localIcon": "walk"
+      },
+      "notes": "<DURATION> ⋅ 400m",
+      "streets": [
+        {
+          "encodedWaypoints": "~dumEojuy[Rm@s@S_@BOw@??wBj@??YyCMkA??aABQ@u@F??AO",
+          "metres": 360
+        }
+      ],
+      "to": {
+        "address": "Mullens St opp Goodsir St",
+        "class": "Location",
+        "lat": -33.86274,
+        "lng": 151.17649,
+        "timezone": "Australia/Sydney"
+      },
+      "travelDirection": 45,
+      "type": "unscheduled",
+      "visibility": "in summary"
+    },
+    {
+      "action": "<TIME>: Take <NUMBER>",
+      "endStopCode": "2000140",
+      "from": {
+        "address": "Mullens St opp Goodsir St",
+        "class": "Location",
+        "lat": -33.86274,
+        "lng": 151.17649,
+        "timezone": "Australia/Sydney"
+      },
+      "hashCode": -1439549080,
+      "mini": {
+        "description": "<DIRECTION>",
+        "instruction": "Take <NUMBER> ⋅ <PLATFORM>"
+      },
+      "modeIdentifier": "pt_pub",
+      "modeInfo": {
+        "alt": "Bus",
+        "color": {
+          "blue": 104,
+          "green": 197,
+          "red": 45
+        },
+        "identifier": "pt_pub_bus",
+        "localIcon": "bus"
+      },
+      "notes": "<LINE_NAME>\n<DIRECTION>\n<PLATFORM>\n<DURATION> ⋅ <STOPS> ⋅ Opal (bus) ($2.15)",
+      "operatorID": "2438",
+      "serviceOperator": "State Transit Sydney",
+      "shapes": [
+        {
+          "encodedWaypoints": "t{smE{|vy[O@Kb@CHCNAJYfC]pDGf@Yj@w@|A[jA??KISb@SlBQdBQzAE\\pAF???FJ@rARrC\\f@Fb@FVDPBBIFEJ?DFBHxAH??AJNBt@HlAJxBVhAf@??EJd@XvBxAhCMn@S",
+          "travelled": false
+        },
+        {
+          "encodedWaypoints": "bytmEatuy[@PbAGt@EJCdCa@zDa@bBQhAERhAbBvC??MBVf@VVt@T`CaB^e@??VFrDy@RSJW@O?YAWEWiEcPIo@Ck@Au@Bu@Fq@Jw@Nu@j@}C|@eF`AsFdCcObA_Gb@}Ap@uBl@cBb@kAR}@B]DYFcADgAJ{@Pw@Vs@\\u@^k@l@q@l@e@zB}AfE{CbAg@zAeAz@eAZaAL}@Di@?_@Ea@Gg@sEeSi@uCQq@Q_@GWWk@Wc@Ua@gAcAo@Uw@Yg@@}@GoAGkCCaECQAa@KWMUUQWOWMYES?Kf@AzCa@??@NfEUd@KA{BEeAMeCU{A",
+          "travelled": true
+        }
+      ],
+      "stopCode": "204145",
+      "to": {
+        "address": "QVB, Market St, Stand F",
+        "class": "Location",
+        "lat": -33.87076,
+        "lng": 151.20598,
+        "timezone": "Australia/Sydney"
+      },
+      "travelDirection": 105,
+      "type": "scheduled",
+      "visibility": "in summary"
+    },
+    {
+      "action": "<TIME>: Walk",
+      "from": {
+        "address": "QVB, Market St, Stand F",
+        "class": "Location",
+        "lat": -33.87076,
+        "lng": 151.20598,
+        "timezone": "Australia/Sydney"
+      },
+      "hashCode": -2006122914,
+      "metres": 403,
+      "mini": {
+        "description": "Town Hall Station Platform 5",
+        "instruction": "Walk",
+        "mainValue": "450m"
+      },
+      "modeIdentifier": "wa_wal",
+      "modeInfo": {
+        "alt": "Walk",
+        "color": {
+          "blue": 99,
+          "green": 199,
+          "red": 30
+        },
+        "identifier": "wa_wal",
+        "localIcon": "walk"
+      },
+      "notes": "<DURATION> ⋅ 450m",
+      "streets": [
+        {
+          "encodedWaypoints": "hkvmEkl{y[TAH_A??hAU@?d@BPAxAGn@Ip@B??|@E@?J{A??^B`CR?@GDAK",
+          "metres": 402
+        }
+      ],
+      "to": {
+        "address": "Town Hall Station Platform 5",
+        "class": "Location",
+        "lat": -33.87366,
+        "lng": 151.20687,
+        "timezone": "Australia/Sydney"
+      },
+      "travelDirection": 164,
+      "type": "unscheduled",
+      "visibility": "in summary"
+    },
+    {
+      "action": "<TIME>: Wait ",
+      "hashCode": -1268641489,
+      "location": {
+        "address": "Town Hall Station Platform 5",
+        "class": "Location",
+        "lat": -33.87366,
+        "lng": 151.20687,
+        "timezone": "Australia/Sydney"
+      },
+      "mini": {
+        "instruction": "Wait",
+        "mainValue": "<DURATION>"
+      },
+      "modeInfo": {
+        "alt": "Transfer",
+        "localIcon": "transfer"
+      },
+      "notes": "<DURATION>",
+      "type": "stationary",
+      "visibility": "in details"
+    },
+    {
+      "action": "<TIME>: Take <NUMBER>",
+      "endStopCode": "201172",
+      "from": {
+        "address": "Town Hall Station Platform 5",
+        "class": "Location",
+        "lat": -33.87366,
+        "lng": 151.20687,
+        "timezone": "Australia/Sydney"
+      },
+      "hashCode": 1687945651,
+      "mini": {
+        "description": "<DIRECTION>",
+        "instruction": "Take <NUMBER> ⋅ <PLATFORM>"
+      },
+      "modeIdentifier": "pt_pub",
+      "modeInfo": {
+        "alt": "Train",
+        "color": {
+          "blue": 104,
+          "green": 197,
+          "red": 45
+        },
+        "identifier": "pt_pub_train",
+        "localIcon": "train"
+      },
+      "notes": "<LINE_NAME>\n<DIRECTION>\n<PLATFORM>\n<DURATION> ⋅ <STOPS> ⋅ Opal (train) ($0.42)",
+      "operatorID": "SydneyTrains",
+      "serviceOperator": "Sydney Trains",
+      "shapes": [
+        {
+          "encodedWaypoints": "|gfnEg|my[{o@kZyDoB_DsCwNkQsAmAaC{Au@]{RqHaKmEaGuCaHwF{PkP??o@]}FyFuAcAiFaC_Cs@uL_B}D{AaB}@gC}Bo@u@cJkOuKkRa@w@eHkN??L~@u[_j@gD}H}Laj@sDmFaB{AaBiAqAi@mBc@oRkD{FuBuBaC}AyD}AqHs@aJWe\\_CcI}FyDwOoCqB{A??mDyBaQkUgOePwH}F??eFyC}ESiGvBwIlE}CrA{B\\wB@qB@_Ee@_HwAgB]",
+          "travelled": false
+        },
+        {
+          "encodedWaypoints": "l}vmE}q{y[aDIaBm@wGuDmLwAkBeAmAoBo@cFXoCDmB??f@wHV}C\\aB|@wCjCqEnAoAtDkCfHiElCwBbBoChEmK",
+          "travelled": true
+        },
+        {
+          "encodedWaypoints": "jawmEyo~y[lBaGrBqFpAoErAaB~A{MpAsQXiBfA_DfGuMdAmAQ{B??r@yM`AgJrBkCxKoFhKyDtL`@nJ_BbC_A`CgCh@k@tBcEbC{KHuC",
+          "travelled": false
+        }
+      ],
+      "stopCode": "2000395",
+      "to": {
+        "address": "Kings Cross Station Platform 2",
+        "class": "Location",
+        "lat": -33.87429,
+        "lng": 151.22189,
+        "timezone": "Australia/Sydney"
+      },
+      "travelDirection": 92,
+      "type": "scheduled",
+      "visibility": "in summary"
+    },
+    {
+      "action": "<TIME>: Walk",
+      "from": {
+        "address": "Kings Cross Station Platform 2",
+        "class": "Location",
+        "lat": -33.87429,
+        "lng": 151.22189,
+        "timezone": "Australia/Sydney"
+      },
+      "hashCode": 1146586373,
+      "metres": 614,
+      "mini": {
+        "description": "Caldwell Street & Surrey Lane",
+        "instruction": "Walk",
+        "mainValue": "650m"
+      },
+      "modeIdentifier": "wa_wal",
+      "modeInfo": {
+        "alt": "Walk",
+        "color": {
+          "blue": 99,
+          "green": 199,
+          "red": 30
+        },
+        "identifier": "wa_wal",
+        "localIcon": "walk"
+      },
+      "notes": "<DURATION> ⋅ 650m",
+      "streets": [
+        {
+          "encodedWaypoints": "jawmEyo~y[HFr@qB_A_BJS??t@t@b@j@V^NLHJHFHDLJ`@R?ALCJ?|@HA???^m@Va@P[??VRPJNFRDZD????|BmAj@]??DHz@g@",
+          "metres": 611
+        }
+      ],
+      "to": {
+        "address": "Caldwell Street & Surrey Lane",
+        "class": "Location",
+        "lat": -33.8779,
+        "lng": 151.22294,
+        "timezone": "Australia/Sydney"
+      },
+      "travelDirection": 165,
+      "type": "unscheduled",
+      "visibility": "in summary"
+    },
+    {
+      "action": "<TIME>: Take <NUMBER>",
+      "endStopCode": "201172",
+      "from": {
+        "address": "Town Hall Station Platform 5",
+        "class": "Location",
+        "lat": -33.87366,
+        "lng": 151.20687,
+        "timezone": "Australia/Sydney"
+      },
+      "hashCode": 1686856838,
+      "mini": {
+        "description": "<DIRECTION>",
+        "instruction": "Take <NUMBER> ⋅ <PLATFORM>"
+      },
+      "modeIdentifier": "pt_pub",
+      "modeInfo": {
+        "alt": "Train",
+        "color": {
+          "blue": 104,
+          "green": 197,
+          "red": 45
+        },
+        "identifier": "pt_pub_train",
+        "localIcon": "train"
+      },
+      "notes": "<LINE_NAME>\n<DIRECTION>\n<PLATFORM>\n<DURATION> ⋅ <STOPS> ⋅ Opal (train) ($0.42)",
+      "operatorID": "SydneyTrains",
+      "serviceOperator": "Sydney Trains",
+      "shapes": [
+        {
+          "encodedWaypoints": "~`ymEou{y[eFyC}ESiGvBwIlE}CrA{B\\wB@qB@_Ee@_HwAgB]",
+          "travelled": false
+        },
+        {
+          "encodedWaypoints": "l}vmE}q{y[aDIaBm@wGuDmLwAkBeAmAoBo@cFXoCDmB??f@wHV}C\\aB|@wCjCqEnAoAtDkCfHiElCwBbBoChEmK",
+          "travelled": true
+        },
+        {
+          "encodedWaypoints": "jawmEyo~y[lBaGrBqFpAoErAaB~A{MpAsQXiBfA_DfGuMdAmAQ{B??r@yM`AgJrBkCxKoFhKyDtL`@nJ_BbC_A`CgCh@k@tBcEbC{KHuC",
+          "travelled": false
+        }
+      ],
+      "stopCode": "2000395",
+      "to": {
+        "address": "Kings Cross Station Platform 2",
+        "class": "Location",
+        "lat": -33.87429,
+        "lng": 151.22189,
+        "timezone": "Australia/Sydney"
+      },
+      "travelDirection": 92,
+      "type": "scheduled",
+      "visibility": "in summary"
+    },
+    {
+      "action": "<TIME>: Take <NUMBER>",
+      "endStopCode": "201172",
+      "from": {
+        "address": "Town Hall Station Platform 5",
+        "class": "Location",
+        "lat": -33.87366,
+        "lng": 151.20687,
+        "timezone": "Australia/Sydney"
+      },
+      "hashCode": 1686444569,
+      "mini": {
+        "description": "<DIRECTION>",
+        "instruction": "Take <NUMBER> ⋅ <PLATFORM>"
+      },
+      "modeIdentifier": "pt_pub",
+      "modeInfo": {
+        "alt": "Train",
+        "color": {
+          "blue": 104,
+          "green": 197,
+          "red": 45
+        },
+        "identifier": "pt_pub_train",
+        "localIcon": "train"
+      },
+      "notes": "<LINE_NAME>\n<DIRECTION>\n<PLATFORM>\n<DURATION> ⋅ <STOPS> ⋅ Opal (train) ($0.42)",
+      "operatorID": "SydneyTrains",
+      "serviceOperator": "Sydney Trains",
+      "shapes": [
+        {
+          "encodedWaypoints": "~`ymEou{y[eFyC}ESiGvBwIlE}CrA{B\\wB@qB@_Ee@_HwAgB]",
+          "travelled": false
+        },
+        {
+          "encodedWaypoints": "l}vmE}q{y[aDIaBm@wGuDmLwAkBeAmAoBo@cFXoCDmB??f@wHV}C\\aB|@wCjCqEnAoAtDkCfHiElCwBbBoChEmK",
+          "travelled": true
+        },
+        {
+          "encodedWaypoints": "jawmEyo~y[lBaGrBqFpAoErAaB~A{MpAsQXiBfA_DfGuMdAmAQ{B??r@yM`AgJrBkCxKoFhKyDtL`@nJ_BbC_A`CgCh@k@tBcEbC{KKqD",
+          "travelled": false
+        }
+      ],
+      "stopCode": "2000395",
+      "to": {
+        "address": "Kings Cross Station Platform 2",
+        "class": "Location",
+        "lat": -33.87429,
+        "lng": 151.22189,
+        "timezone": "Australia/Sydney"
+      },
+      "travelDirection": 92,
+      "type": "scheduled",
+      "visibility": "in summary"
+    },
+    {
+      "action": "<TIME>: Take <NUMBER>",
+      "endStopCode": "201172",
+      "from": {
+        "address": "Town Hall Station Platform 5",
+        "class": "Location",
+        "lat": -33.87366,
+        "lng": 151.20687,
+        "timezone": "Australia/Sydney"
+      },
+      "hashCode": 1661645003,
+      "mini": {
+        "description": "<DIRECTION>",
+        "instruction": "Take <NUMBER> ⋅ <PLATFORM>"
+      },
+      "modeIdentifier": "pt_pub",
+      "modeInfo": {
+        "alt": "Train",
+        "color": {
+          "blue": 104,
+          "green": 197,
+          "red": 45
+        },
+        "identifier": "pt_pub_train",
+        "localIcon": "train"
+      },
+      "notes": "<LINE_NAME>\n<DIRECTION>\n<PLATFORM>\n<DURATION> ⋅ <STOPS> ⋅ Opal (train) ($0.42)",
+      "operatorID": "SydneyTrains",
+      "serviceOperator": "Sydney Trains",
+      "shapes": [
+        {
+          "encodedWaypoints": "|gfnEg|my[{o@kZyDoB_DsCwNkQsAmAaC{Au@]{RqHaKmEaGuCaHwF{PkP??o@]}FyFuAcAiFaC_Cs@uL_B}D{AaB}@gC}Bo@u@cJkOuKkRa@w@eHkN??L~@u[_j@gD}H}Laj@sDmFaB{AaBiAqAi@mBc@oRkD{FuBuBaC}AyD}AqHs@aJWe\\_CcI}FyDwOoCqB{A??mDyBaQkUgOePwH}F??eFyC}ESiGvBwIlE}CrA{B\\wB@qB@_Ee@_HwAgB]",
+          "travelled": false
+        },
+        {
+          "encodedWaypoints": "l}vmE}q{y[aDIaBm@wGuDmLwAkBeAmAoBo@cFXoCDmB??f@wHV}C\\aB|@wCjCqEnAoAtDkCfHiElCwBbBoChEmK",
+          "travelled": true
+        },
+        {
+          "encodedWaypoints": "jawmEyo~y[lBaGrBqFpAoErAaB~A{MpAsQXiBfA_DfGuMdAmAQ{B??r@yM`AgJrBkCxKoFhKyDtL`@nJ_BbC_A`CgCh@k@tBcEbC{KKqD",
+          "travelled": false
+        }
+      ],
+      "stopCode": "2000395",
+      "to": {
+        "address": "Kings Cross Station Platform 2",
+        "class": "Location",
+        "lat": -33.87429,
+        "lng": 151.22189,
+        "timezone": "Australia/Sydney"
+      },
+      "travelDirection": 92,
+      "type": "scheduled",
+      "visibility": "in summary"
+    },
+    {
+      "action": "<TIME>: Take <NUMBER>",
+      "endStopCode": "201172",
+      "from": {
+        "address": "Town Hall Station Platform 5",
+        "class": "Location",
+        "lat": -33.87366,
+        "lng": 151.20687,
+        "timezone": "Australia/Sydney"
+      },
+      "hashCode": 1662522396,
+      "mini": {
+        "description": "<DIRECTION>",
+        "instruction": "Take <NUMBER> ⋅ <PLATFORM>"
+      },
+      "modeIdentifier": "pt_pub",
+      "modeInfo": {
+        "alt": "Train",
+        "color": {
+          "blue": 104,
+          "green": 197,
+          "red": 45
+        },
+        "identifier": "pt_pub_train",
+        "localIcon": "train"
+      },
+      "notes": "<LINE_NAME>\n<DIRECTION>\n<PLATFORM>\n<DURATION> ⋅ <STOPS> ⋅ Opal (train) ($0.42)",
+      "operatorID": "SydneyTrains",
+      "serviceOperator": "Sydney Trains",
+      "shapes": [
+        {
+          "encodedWaypoints": "|gfnEg|my[{o@kZyDoB_DsCwNkQsAmAaC{Au@]{RqHaKmEaGuCaHwF{PkP??o@]}FyFuAcAiFaC_Cs@uL_B}D{AaB}@gC}Bo@u@cJkOuKkRa@w@eHkN??L~@u[_j@gD}H}Laj@sDmFaB{AaBiAqAi@mBc@oRkD{FuBuBaC}AyD}AqHs@aJWe\\_CcI}FyDwOoCqB{A??mDyBaQkUgOePwH}F??eFyC}ESiGvBwIlE}CrA{B\\wB@qB@_Ee@_HwAgB]",
+          "travelled": false
+        },
+        {
+          "encodedWaypoints": "l}vmE}q{y[aDIaBm@wGuDmLwAkBeAmAoBo@cFXoCDmB??f@wHV}C\\aB|@wCjCqEnAoAtDkCfHiElCwBbBoChEmK",
+          "travelled": true
+        },
+        {
+          "encodedWaypoints": "jawmEyo~y[lBaGrBqFpAoErAaB~A{MpAsQXiBfA_DfGuMdAmAQ{B??r@yM`AgJrBkCxKoFhKyDtL`@nJ_BbC_A`CgCh@k@tBcEbC{KKqD",
+          "travelled": false
+        }
+      ],
+      "stopCode": "2000395",
+      "to": {
+        "address": "Kings Cross Station Platform 2",
+        "class": "Location",
+        "lat": -33.87429,
+        "lng": 151.22189,
+        "timezone": "Australia/Sydney"
+      },
+      "travelDirection": 92,
+      "type": "scheduled",
+      "visibility": "in summary"
+    },
+    {
+      "action": "<TIME>: Take <NUMBER>",
+      "endStopCode": "201172",
+      "from": {
+        "address": "Town Hall Station Platform 5",
+        "class": "Location",
+        "lat": -33.87366,
+        "lng": 151.20687,
+        "timezone": "Australia/Sydney"
+      },
+      "hashCode": 1686254291,
+      "mini": {
+        "description": "<DIRECTION>",
+        "instruction": "Take <NUMBER> ⋅ <PLATFORM>"
+      },
+      "modeIdentifier": "pt_pub",
+      "modeInfo": {
+        "alt": "Train",
+        "color": {
+          "blue": 104,
+          "green": 197,
+          "red": 45
+        },
+        "identifier": "pt_pub_train",
+        "localIcon": "train"
+      },
+      "notes": "<LINE_NAME>\n<DIRECTION>\n<PLATFORM>\n<DURATION> ⋅ <STOPS> ⋅ Opal (train) ($0.42)",
+      "operatorID": "SydneyTrains",
+      "serviceOperator": "Sydney Trains",
+      "shapes": [
+        {
+          "encodedWaypoints": "|gfnEg|my[{o@kZyDoB_DsCwNkQsAmAaC{Au@]{RqHaKmEaGuCaHwF{PkP??o@]}FyFuAcAiFaC_Cs@uL_B}D{AaB}@gC}Bo@u@cJkOuKkRa@w@eHkN??L~@u[_j@gD}H}Laj@sDmFaB{AaBiAqAi@mBc@oRkD{FuBuBaC}AyD}AqHs@aJWe\\_CcI}FyDwOoCqB{A??mDyBaQkUgOePwH}F??eFyC}ESiGvBwIlE}CrA{B\\wB@qB@_Ee@_HwAgB]",
+          "travelled": false
+        },
+        {
+          "encodedWaypoints": "l}vmE}q{y[aDIaBm@wGuDmLwAkBeAmAoBo@cFXoCDmB??f@wHV}C\\aB|@wCjCqEnAoAtDkCfHiElCwBbBoChEmK",
+          "travelled": true
+        },
+        {
+          "encodedWaypoints": "jawmEyo~y[lBaGrBqFpAoErAaB~A{MpAsQXiBfA_DfGuMdAmAQ{B??r@yM`AgJrBkCxKoFhKyDtL`@nJ_BbC_A`CgCh@k@tBcEbC{KHuC",
+          "travelled": false
+        }
+      ],
+      "stopCode": "2000395",
+      "to": {
+        "address": "Kings Cross Station Platform 2",
+        "class": "Location",
+        "lat": -33.87429,
+        "lng": 151.22189,
+        "timezone": "Australia/Sydney"
+      },
+      "travelDirection": 92,
+      "type": "scheduled",
+      "visibility": "in summary"
+    },
+    {
+      "action": "<TIME>: Walk",
+      "from": {
+        "address": "Mansfield Street & Crescent Street",
+        "class": "Location",
+        "lat": -33.86464,
+        "lng": 151.17496,
+        "timezone": "Australia/Sydney"
+      },
+      "hashCode": -683414427,
+      "metres": 476,
+      "mini": {
+        "description": "Victoria Rd at Ellen St",
+        "instruction": "Walk",
+        "mainValue": "500m"
+      },
+      "modeIdentifier": "wa_wal",
+      "modeInfo": {
+        "alt": "Walk",
+        "color": {
+          "blue": 99,
+          "green": 199,
+          "red": 30
+        },
+        "identifier": "wa_wal",
+        "localIcon": "walk"
+      },
+      "notes": "<DURATION> ⋅ 500m",
+      "streets": [
+        {
+          "encodedWaypoints": "~dumEojuy[Rm@TFvAL??]lAYfAAPU`Ak@vBq@dCPF??hBv@d@T@?q@lA",
+          "metres": 475
+        }
+      ],
+      "to": {
+        "address": "Victoria Rd at Ellen St",
+        "class": "Location",
+        "lat": -33.86499,
+        "lng": 151.17183,
+        "timezone": "Australia/Sydney"
+      },
+      "travelDirection": 276,
+      "type": "unscheduled",
+      "visibility": "in summary"
+    },
+    {
+      "action": "<TIME>: Take <NUMBER>",
+      "endStopCode": "2000249",
+      "from": {
+        "address": "Victoria Rd at Ellen St",
+        "class": "Location",
+        "lat": -33.86499,
+        "lng": 151.17183,
+        "timezone": "Australia/Sydney"
+      },
+      "hashCode": 2002977581,
+      "mini": {
+        "description": "<DIRECTION>",
+        "instruction": "Take <NUMBER> ⋅ <PLATFORM>"
+      },
+      "modeIdentifier": "pt_pub",
+      "modeInfo": {
+        "alt": "Bus",
+        "color": {
+          "blue": 104,
+          "green": 197,
+          "red": 45
+        },
+        "identifier": "pt_pub_bus",
+        "localIcon": "bus"
+      },
+      "notes": "<LINE_NAME>\n<DIRECTION>\n<PLATFORM>\n<DURATION> ⋅ <STOPS> ⋅ Opal (bus) ($3.58)",
+      "operatorID": "2439",
+      "serviceOperator": "State Transit Sydney",
+      "shapes": [
+        {
+          "encodedWaypoints": "xqsmEokry[??DJz@mA??????FHLKhAiAjBoBjMyN`CwC\\u@Tm@v@_CFUfAkDNkA@?????HJXy@Vw@`@w@x@yAXgA?@????LBb@w@vDgHv@cB??????JBrAoBr@gAZw@A?",
+          "travelled": false
+        },
+        {
+          "encodedWaypoints": "dgumE{vty[??FHz@oArAmB^}@FWD]FgAF_@RiARs@f@}@p@cAl@w@`C}A^g@??????VFrDy@RSJW@O?YAWEWiEcPIo@Ck@Au@Bu@Fq@Jw@Nu@j@}C|@eF`AsFdCcObA_Gb@}Ap@uBl@cBb@kAR}@B]DYFcADgAJ{@Pw@Vs@\\u@^k@l@q@l@e@zB}AfE{CbAg@zAeAz@eAZaAL}@Di@?_@Ea@Gg@cBqKs@cHSkEGIKkAM[KIQCeBsFm@wCSg@Ig@??????FOGwAEeAAu@?U?e@@e@De@BU?QTiADGBOB{C??",
+          "travelled": true
+        },
+        {
+          "encodedWaypoints": "fyvmEcx{y[??J@Bu@VsELoC{N{@q@Ie@AgBKsBMwDWeBKoCD?A????CU}@GgAESCY_@U_@OKeD{AgAMmCG??@IgAMu@GM?oAH",
+          "travelled": false
+        }
+      ],
+      "stopCode": "203914",
+      "to": {
+        "address": "Town Hall Station, Park St, Stand H",
+        "class": "Location",
+        "lat": -33.873,
+        "lng": 151.20786,
+        "timezone": "Australia/Sydney"
+      },
+      "travelDirection": 102,
+      "type": "scheduled",
+      "visibility": "in summary"
+    },
+    {
+      "action": "<TIME>: Walk",
+      "from": {
+        "address": "Town Hall Station, Park St, Stand H",
+        "class": "Location",
+        "lat": -33.873,
+        "lng": 151.20786,
+        "timezone": "Australia/Sydney"
+      },
+      "hashCode": -1112563561,
+      "metres": 108,
+      "mini": {
+        "description": "Town Hall Station, Park St, Stand G",
+        "instruction": "Walk",
+        "mainValue": "150m"
+      },
+      "modeIdentifier": "wa_wal",
+      "modeInfo": {
+        "alt": "Walk",
+        "color": {
+          "blue": 99,
+          "green": 199,
+          "red": 30
+        },
+        "identifier": "wa_wal",
+        "localIcon": "walk"
+      },
+      "notes": "<DURATION> ⋅ 150m",
+      "streets": [
+        {
+          "encodedWaypoints": "fyvmEcx{y[NB?A??De@@QDq@HsAQA",
+          "metres": 108
+        }
+      ],
+      "to": {
+        "address": "Town Hall Station, Park St, Stand G",
+        "class": "Location",
+        "lat": -33.8731,
+        "lng": 151.20881,
+        "timezone": "Australia/Sydney"
+      },
+      "travelDirection": 96,
+      "type": "unscheduled",
+      "visibility": "in summary"
+    },
+    {
+      "action": "<TIME>: Wait ",
+      "hashCode": -1268635134,
+      "location": {
+        "address": "Town Hall Station, Park St, Stand G",
+        "class": "Location",
+        "lat": -33.8731,
+        "lng": 151.20881,
+        "timezone": "Australia/Sydney"
+      },
+      "mini": {
+        "instruction": "Wait",
+        "mainValue": "<DURATION>"
+      },
+      "modeInfo": {
+        "alt": "Transfer",
+        "localIcon": "transfer"
+      },
+      "notes": "<DURATION>",
+      "type": "stationary",
+      "visibility": "in details"
+    },
+    {
+      "action": "<TIME>: Take <NUMBER>",
+      "endStopCode": "201117",
+      "from": {
+        "address": "Town Hall Station, Park St, Stand G",
+        "class": "Location",
+        "lat": -33.8731,
+        "lng": 151.20881,
+        "timezone": "Australia/Sydney"
+      },
+      "hashCode": -328265083,
+      "mini": {
+        "description": "<DIRECTION>",
+        "instruction": "Take <NUMBER> ⋅ <PLATFORM>"
+      },
+      "modeIdentifier": "pt_pub",
+      "modeInfo": {
+        "alt": "Bus",
+        "color": {
+          "blue": 104,
+          "green": 197,
+          "red": 45
+        },
+        "identifier": "pt_pub_bus",
+        "localIcon": "bus"
+      },
+      "notes": "<LINE_NAME>\n<DIRECTION>\n<PLATFORM>\n<DURATION> ⋅ <STOPS>",
+      "operatorID": "2441",
+      "serviceOperator": "State Transit Sydney",
+      "shapes": [
+        {
+          "encodedWaypoints": "`vsmEia{y[G?CrAG^JPFXTd@FJ^^FHb@Xd@Tn@Pt@Hn@?n@?vAU??@LpJYvJe@`Ce@??HR~@EpEUh@EXA`AKvCW~@EM{DKgCEgAGsAnACh@O??AHJ?pAGbEWnKm@^KTExESfAM???HnAI?OVgADKBMTmEBkC",
+          "travelled": false
+        },
+        {
+          "encodedWaypoints": "|yvmEa~{y[F?HkALmCj@{G`@wFDQBi@Cu@@?????J@TaCFi@V}A^yD\\uDEiC??XBDo@@QZwCb@_F@kC??PR@MDkBNcBTaBTq@J_@AM@MAQGMIGiAgANoB@WDiB??FTDOVmCHYfAFPBH@j@A@IFIFATcED_@GS",
+          "travelled": true
+        },
+        {
+          "encodedWaypoints": "rlwmEeh_z[HEHcAFqAH_BBsBAk@Ey@W_A??RGAWDaAJgAP}A`@}G??NB@OLuAFm@X{BVkBNs@Ne@R[p@eANg@??HJjAuAz@}@\\g@L]^yCx@{HTCR@t@@ZARAr@I@N]pCEh@ONSJGPE`@CX?RWH??@G]?",
+          "travelled": false
+        }
+      ],
+      "stopCode": "2000426",
+      "to": {
+        "address": "Kings Cross Rd after Ward Av",
+        "class": "Location",
+        "lat": -33.87609,
+        "lng": 151.22579,
+        "timezone": "Australia/Sydney"
+      },
+      "travelDirection": 99,
+      "type": "scheduled",
+      "visibility": "in summary"
+    },
+    {
+      "action": "<TIME>: Walk",
+      "from": {
+        "address": "Kings Cross Rd after Ward Av",
+        "class": "Location",
+        "lat": -33.87609,
+        "lng": 151.22579,
+        "timezone": "Australia/Sydney"
+      },
+      "hashCode": 1018311186,
+      "metres": 444,
+      "mini": {
+        "description": "Caldwell Street & Surrey Lane",
+        "instruction": "Walk",
+        "mainValue": "450m"
+      },
+      "modeIdentifier": "wa_wal",
+      "modeInfo": {
+        "alt": "Walk",
+        "color": {
+          "blue": 99,
+          "green": 199,
+          "red": 30
+        },
+        "identifier": "wa_wal",
+        "localIcon": "walk"
+      },
+      "notes": "<DURATION> ⋅ 450m",
+      "streets": [
+        {
+          "encodedWaypoints": "rlwmEeh_z[LC??IhAYtDf@L??V?RAJ?D?DB?ABZ??XSFJf@v@b@z@zAbE@@??DHz@g@",
+          "metres": 443
+        }
+      ],
+      "to": {
+        "address": "Caldwell Street & Surrey Lane",
+        "class": "Location",
+        "lat": -33.8779,
+        "lng": 151.22294,
+        "timezone": "Australia/Sydney"
+      },
+      "travelDirection": 243,
+      "type": "unscheduled",
+      "visibility": "in summary"
+    },
+    {
+      "action": "<TIME>: Take <NUMBER>",
+      "endStopCode": "201117",
+      "from": {
+        "address": "Town Hall Station, Park St, Stand G",
+        "class": "Location",
+        "lat": -33.8731,
+        "lng": 151.20881,
+        "timezone": "Australia/Sydney"
+      },
+      "hashCode": -328276336,
+      "mini": {
+        "description": "<DIRECTION>",
+        "instruction": "Take <NUMBER> ⋅ <PLATFORM>"
+      },
+      "modeIdentifier": "pt_pub",
+      "modeInfo": {
+        "alt": "Bus",
+        "color": {
+          "blue": 104,
+          "green": 197,
+          "red": 45
+        },
+        "identifier": "pt_pub_bus",
+        "localIcon": "bus"
+      },
+      "notes": "<LINE_NAME>\n<DIRECTION>\n<PLATFORM>\n<DURATION> ⋅ <STOPS>",
+      "operatorID": "2441",
+      "serviceOperator": "State Transit Sydney",
+      "shapes": [
+        {
+          "encodedWaypoints": "`vsmEia{y[G?CrAG^JPFXTd@FJ^^FHb@Xd@Tn@Pt@Hn@?n@?vAU??@LpJYvJe@`Ce@??HR~@EpEUh@EXA`AKvCW~@EM{DKgCEgAGsAnACh@O??AHJ?pAGbEWnKm@^KTExESfAM???HnAI?OVgADKBMTmEBkC",
+          "travelled": false
+        },
+        {
+          "encodedWaypoints": "|yvmEa~{y[F?HkALmCj@{G`@wFDQBi@Cu@@?????J@TaCFi@V}A^yD\\uDEiC??XBDo@@QZwCb@_F@kC??PR@MDkBNcBTaBTq@J_@AM@MAQGMIGiAgANoB@WDiB??FTDOVmCHYfAFPBH@j@A@IFIFATcED_@GS",
+          "travelled": true
+        },
+        {
+          "encodedWaypoints": "rlwmEeh_z[HEHcAFqAH_BBsBAk@Ey@W_A??RGAWDaAJgAP}A`@}G??NB@OLuAFm@X{BVkBNs@Ne@R[p@eANg@??HJjAuAz@}@\\g@L]^yCx@{HTCR@t@@ZARAr@I@N]pCEh@ONSJGPE`@CX?RWH??@G]?",
+          "travelled": false
+        }
+      ],
+      "stopCode": "2000426",
+      "to": {
+        "address": "Kings Cross Rd after Ward Av",
+        "class": "Location",
+        "lat": -33.87609,
+        "lng": 151.22579,
+        "timezone": "Australia/Sydney"
+      },
+      "travelDirection": 99,
+      "type": "scheduled",
+      "visibility": "in summary"
+    },
+    {
+      "action": "<TIME>: Take <NUMBER>",
+      "endStopCode": "2000249",
+      "from": {
+        "address": "Victoria Rd at Ellen St",
+        "class": "Location",
+        "lat": -33.86499,
+        "lng": 151.17183,
+        "timezone": "Australia/Sydney"
+      },
+      "hashCode": 2003049656,
+      "mini": {
+        "description": "<DIRECTION>",
+        "instruction": "Take <NUMBER> ⋅ <PLATFORM>"
+      },
+      "modeIdentifier": "pt_pub",
+      "modeInfo": {
+        "alt": "Bus",
+        "color": {
+          "blue": 104,
+          "green": 197,
+          "red": 45
+        },
+        "identifier": "pt_pub_bus",
+        "localIcon": "bus"
+      },
+      "notes": "<LINE_NAME>\n<DIRECTION>\n<PLATFORM>\n<DURATION> ⋅ <STOPS> ⋅ Opal (bus) ($3.58)",
+      "operatorID": "2439",
+      "serviceOperator": "State Transit Sydney",
+      "shapes": [
+        {
+          "encodedWaypoints": "xqsmEokry[??DJz@mA??????FHLKhAiAjBoBjMyN`CwC\\u@Tm@v@_CFUfAkDNkA@?????HJXy@Vw@`@w@x@yAXgA?@????LBb@w@vDgHv@cB??????JBrAoBr@gAZw@A?",
+          "travelled": false
+        },
+        {
+          "encodedWaypoints": "dgumE{vty[??FHz@oArAmB^}@FWD]FgAF_@RiARs@f@}@p@cAl@w@`C}A^g@??????VFrDy@RSJW@O?YAWEWiEcPIo@Ck@Au@Bu@Fq@Jw@Nu@j@}C|@eF`AsFdCcObA_Gb@}Ap@uBl@cBb@kAR}@B]DYFcADgAJ{@Pw@Vs@\\u@^k@l@q@l@e@zB}AfE{CbAg@zAeAz@eAZaAL}@Di@?_@Ea@Gg@cBqKs@cHSkEGIKkAM[KIQCeBsFm@wCSg@Ig@??????FOGwAEeAAu@?U?e@@e@De@BU?QTiADGBOB{C??",
+          "travelled": true
+        }
+      ],
+      "stopCode": "203914",
+      "to": {
+        "address": "Town Hall Station, Park St, Stand H",
+        "class": "Location",
+        "lat": -33.873,
+        "lng": 151.20786,
+        "timezone": "Australia/Sydney"
+      },
+      "travelDirection": 102,
+      "type": "scheduled",
+      "visibility": "in summary"
+    },
+    {
+      "action": "<TIME>: Take <NUMBER>",
+      "endStopCode": "201078",
+      "from": {
+        "address": "Town Hall Station, Park St, Stand G",
+        "class": "Location",
+        "lat": -33.8731,
+        "lng": 151.20881,
+        "timezone": "Australia/Sydney"
+      },
+      "hashCode": -421553662,
+      "mini": {
+        "description": "<DIRECTION>",
+        "instruction": "Take <NUMBER> ⋅ <PLATFORM>"
+      },
+      "modeIdentifier": "pt_pub",
+      "modeInfo": {
+        "alt": "Bus",
+        "color": {
+          "blue": 104,
+          "green": 197,
+          "red": 45
+        },
+        "identifier": "pt_pub_bus",
+        "localIcon": "bus"
+      },
+      "notes": "<LINE_NAME>\n<DIRECTION>\n<PLATFORM>\n<DURATION> ⋅ <STOPS>",
+      "operatorID": "2441",
+      "serviceOperator": "State Transit Sydney",
+      "shapes": [
+        {
+          "encodedWaypoints": "r~smEa`{y[a@`BAlAYl@Q`@Yv@UBoAa@WGeAXm@Ve@PYaAnAgDd@]HPHVTb@HLZ^HFd@Zd@Rl@Tt@Dn@?n@@vAU??@LpJYvJe@`Ce@??HR~@EpEUh@EXA`AKvCW~@EM{DKgCEgAGsAnACh@O??AHJ?pAGbEWnKm@^KTExESfAM???HnAI?OVgADKBMTmEBkC",
+          "travelled": false
+        },
+        {
+          "encodedWaypoints": "|yvmEa~{y[F?HkALmCj@{G`@wFDQBi@Cu@@?????J@TaCFi@V}A^yD\\uDoAQUL??BQOEe@E]G_BUo@G_AOZqDFi@RaC_AO}AS_@J??@SyASqAOSEeAMaAO}@Ki@F??@QYEcC[t@iATo@Lg@D[@WDYDeB@aAASG]EKK[ESWc@c@Q??FGe@k@WSUSc@UgC{@s@WKI}@g@sEwBcBe@??VCSMOQCw@Ae@?ODKFQFEJGLAH@F@^^DHHDLDH@vAP\\DZKHKjA_Av@kA??BFv@y@n@Fp@G??KLH@tC^b@DzBVxCJ??APr@Fd@FpAP@}B??JV@UPqBJ_AHi@\\mDJc@XuB??JHDIHSJc@B[@eCw@U{CgAEIBIHCLIv@OL?HFHFLNVD??GJ^d@d@x@JlA??MCAv@CTEb@Qd@e@lBM`@_@jDEl@O|@BrB??QCCVMbB^DnBThB@??ANl@Jd@Bt@rBLXDTLZJRHNJHrDnD??GB\\\\TThAfAr@Fr@JZHVD`A?",
+          "travelled": true
+        },
+        {
+          "encodedWaypoints": "|mwmEcp~y[CLbFt@|BH??APp@F`C^hAN?`B??OACn@OtA?VhCbA`F~E??INj@l@LNiAnDQ`@IRm@z@iAjB@?????EGsCrDoB|C@?",
+          "travelled": false
+        }
+      ],
+      "stopCode": "2000426",
+      "to": {
+        "address": "Victoria St after Craigend St",
+        "class": "Location",
+        "lat": -33.87631,
+        "lng": 151.22194,
+        "timezone": "Australia/Sydney"
+      },
+      "travelDirection": 103,
+      "type": "scheduled",
+      "visibility": "in summary"
+    },
+    {
+      "action": "<TIME>: Walk",
+      "from": {
+        "address": "Victoria St after Craigend St",
+        "class": "Location",
+        "lat": -33.87631,
+        "lng": 151.22194,
+        "timezone": "Australia/Sydney"
+      },
+      "hashCode": -1226319735,
+      "metres": 274,
+      "mini": {
+        "description": "Caldwell Street & Surrey Lane",
+        "instruction": "Walk",
+        "mainValue": "300m"
+      },
+      "modeIdentifier": "wa_wal",
+      "modeInfo": {
+        "alt": "Walk",
+        "color": {
+          "blue": 99,
+          "green": 199,
+          "red": 30
+        },
+        "identifier": "wa_wal",
+        "localIcon": "walk"
+      },
+      "notes": "<DURATION> ⋅ 300m",
+      "streets": [
+        {
+          "encodedWaypoints": "|mwmEcp~y[RP??hAPVD??n@Hz@J??LsAJeADg@@OAMz@g@",
+          "metres": 272
+        }
+      ],
+      "to": {
+        "address": "Caldwell Street & Surrey Lane",
+        "class": "Location",
+        "lat": -33.8779,
+        "lng": 151.22294,
+        "timezone": "Australia/Sydney"
+      },
+      "travelDirection": 147,
+      "type": "unscheduled",
+      "visibility": "in summary"
+    },
+    {
+      "action": "<TIME>: Take <NUMBER>",
+      "endStopCode": "2000249",
+      "from": {
+        "address": "Victoria Rd at Ellen St",
+        "class": "Location",
+        "lat": -33.86499,
+        "lng": 151.17183,
+        "timezone": "Australia/Sydney"
+      },
+      "hashCode": 2003828066,
+      "mini": {
+        "description": "<DIRECTION>",
+        "instruction": "Take <NUMBER> ⋅ <PLATFORM>"
+      },
+      "modeIdentifier": "pt_pub",
+      "modeInfo": {
+        "alt": "Bus",
+        "color": {
+          "blue": 104,
+          "green": 197,
+          "red": 45
+        },
+        "identifier": "pt_pub_bus",
+        "localIcon": "bus"
+      },
+      "notes": "<LINE_NAME>\n<DIRECTION>\n<PLATFORM>\n<DURATION> ⋅ <STOPS> ⋅ Opal (bus) ($3.58)",
+      "operatorID": "2438",
+      "serviceOperator": "State Transit Sydney",
+      "shapes": [
+        {
+          "encodedWaypoints": "xqsmEokry[DJz@mA??FHLKhAiAjBoBjMyN`CwC\\u@Tm@v@_CFUfAkDPkA??HJXy@Vw@`@w@x@yAXeA??LBb@w@vDgHv@cB??JBrAoBr@gAXw@",
+          "travelled": false
+        },
+        {
+          "encodedWaypoints": "dgumE{vty[FHz@oArAmB^}@FWD]FgAF_@RiARs@f@}@p@cAl@w@`C}A^g@??VFrDy@RSJW@O?YAWEWiEcPIo@Ck@Au@Bu@Fq@Jw@Nu@j@}C|@eF`AsFdCcObA_Gb@}Ap@uBl@cBb@kAR}@B]DYFcADgAJ{@Pw@Vs@\\u@^k@l@q@l@e@zB}AfE{CbAg@zAeAz@eAZaAL}@Di@?_@Ea@Gg@cBqKs@cHSkEGIKkAM[KIQCeBsFm@wCSg@Ig@??FOGwAEeAAu@?U?e@@e@De@BU?QTiADGBOB{C",
+          "travelled": true
+        }
+      ],
+      "stopCode": "203914",
+      "to": {
+        "address": "Town Hall Station, Park St, Stand H",
+        "class": "Location",
+        "lat": -33.873,
+        "lng": 151.20786,
+        "timezone": "Australia/Sydney"
+      },
+      "travelDirection": 102,
+      "type": "scheduled",
+      "visibility": "in summary"
+    },
+    {
+      "action": "<TIME>: Take <NUMBER>",
+      "endStopCode": "200933",
+      "from": {
+        "address": "Victoria Rd at Ellen St",
+        "class": "Location",
+        "lat": -33.86499,
+        "lng": 151.17183,
+        "timezone": "Australia/Sydney"
+      },
+      "hashCode": 2003497269,
+      "mini": {
+        "description": "<DIRECTION>",
+        "instruction": "Take <NUMBER> ⋅ <PLATFORM>"
+      },
+      "modeIdentifier": "pt_pub",
+      "modeInfo": {
+        "alt": "Bus",
+        "color": {
+          "blue": 104,
+          "green": 197,
+          "red": 45
+        },
+        "identifier": "pt_pub_bus",
+        "localIcon": "bus"
+      },
+      "notes": "<LINE_NAME>\n<DIRECTION>\n<PLATFORM>\n<DURATION> ⋅ <STOPS> ⋅ Opal (bus) ($3.58)",
+      "operatorID": "2439",
+      "serviceOperator": "State Transit Sydney",
+      "shapes": [
+        {
+          "encodedWaypoints": "xqsmEokry[??DJz@mA??????FHLKhAiAjBoBjMyN`CwC\\u@Tm@v@_CFUfAkDNkA@?????HJXy@Vw@`@w@x@yAXgA?@????LBb@w@vDgHv@cB??????JBrAoBr@gAZw@A?",
+          "travelled": false
+        },
+        {
+          "encodedWaypoints": "dgumE{vty[??FHz@oArAmB^}@FWD]FgAF_@RiARs@f@}@p@cAl@w@`C}A^g@??????VFrDy@RSJW@O?YAWEWiEcPIo@Ck@Au@Bu@Fq@Jw@Nu@j@}C|@eF`AsFdCcObA_Gb@}Ap@uBl@cB?KZkARkAH{@@u@sAqA??vATHw@Ns@Rs@Xw@^s@f@q@XSRGVEPCHFu@v@i@j@[`@[f@Sh@c@tAk@tACT[SKKU{@I[e@aB_@uAKW_@o@??JGK]]mApGsD??BLx@_@d@OrHaE",
+          "travelled": true
+        },
+        {
+          "encodedWaypoints": "~yvmEymyy[DJx@_@xGcDZQhA{@??DNhEwBNKfA{@??DNxCwAj@YfFyC??JLt@_@bGiD??DP\\QxCuAhCsA|DkC",
+          "travelled": false
+        }
+      ],
+      "stopCode": "203914",
+      "to": {
+        "address": "Harris St at Allen St",
+        "class": "Location",
+        "lat": -33.87312,
+        "lng": 151.19597,
+        "timezone": "Australia/Sydney"
+      },
+      "travelDirection": 108,
+      "type": "scheduled",
+      "visibility": "in summary"
+    },
+    {
+      "action": "<TIME>: Wait ",
+      "hashCode": -1268639102,
+      "location": {
+        "address": "Harris St at Allen St",
+        "class": "Location",
+        "lat": -33.87312,
+        "lng": 151.19597,
+        "timezone": "Australia/Sydney"
+      },
+      "mini": {
+        "instruction": "Wait",
+        "mainValue": "<DURATION>"
+      },
+      "modeInfo": {
+        "alt": "Transfer",
+        "localIcon": "transfer"
+      },
+      "notes": "<DURATION>",
+      "type": "stationary",
+      "visibility": "in details"
+    },
+    {
+      "action": "<TIME>: Take <NUMBER>",
+      "endStopCode": "201075",
+      "from": {
+        "address": "Harris St at Allen St",
+        "class": "Location",
+        "lat": -33.87312,
+        "lng": 151.19597,
+        "timezone": "Australia/Sydney"
+      },
+      "hashCode": -921914676,
+      "mini": {
+        "description": "<DIRECTION>",
+        "instruction": "Take <NUMBER> ⋅ <PLATFORM>"
+      },
+      "modeIdentifier": "pt_pub",
+      "modeInfo": {
+        "alt": "Bus",
+        "color": {
+          "blue": 104,
+          "green": 197,
+          "red": 45
+        },
+        "identifier": "pt_pub_bus",
+        "localIcon": "bus"
+      },
+      "notes": "<LINE_NAME>\n<DIRECTION>\n<PLATFORM>\n<DURATION> ⋅ <STOPS>",
+      "operatorID": "2441",
+      "serviceOperator": "State Transit Sydney",
+      "shapes": [
+        {
+          "encodedWaypoints": "x_umEo{xy[GMgAf@nC~HtF{AxAq@HAVB??K@Rj@|Au@bB{@vAcA??FLTMpIqE??BHrAo@pGqD?A????BLx@_@d@OrHaE??",
+          "travelled": false
+        },
+        {
+          "encodedWaypoints": "~yvmEymyy[??DJx@_@xGcDe@sBW{@i@o@]w@U_B]cCYeBOaAm@eEIe@KWUk@Uc@Ya@eAeAm@Sy@Yg@@_AImACmCE_ECQAa@KUKWWQWOWMYCS?MG_EC}@CkAI}B?YAWGw@??J?DmA@WNuCLyBJkAVcEPqBB_@tBJfBLb@@p@FnGH???VnFZRwF??????N@De@`@wFBQDi@^wDHi@TyA|@DRDvCN??ANPB`ANZwDHgC??J@Dq@N{AJsAZoDdFl@hAL~@N|@E??APr@FZFPmBLmBAqA??L@X{CLuA@ULyATmCEcA",
+          "travelled": true
+        },
+        {
+          "encodedWaypoints": "p`xmEom~y[PB@UF{@TSlAkADCzA}A\\[r@gCH}@??JFf@_BZgAFSVa@FE^T\\RHAF?FGDGHINUb@eABcACmA??RHJYJe@?]EQAMa@q@G]As@Iu@??L@?c@@g@AKEKAODKDGi@wAISPkCF{@P{BLcBHmAV}@??HDN[t@PbGyJEK?KDKHCJBR_@?W",
+          "travelled": false
+        }
+      ],
+      "stopCode": "200933",
+      "to": {
+        "address": "Burton St opp St Vincent's Hospital",
+        "class": "Location",
+        "lat": -33.87928,
+        "lng": 151.22153,
+        "timezone": "Australia/Sydney"
+      },
+      "travelDirection": 103,
+      "type": "scheduled",
+      "visibility": "in summary"
+    },
+    {
+      "action": "<TIME>: Walk",
+      "from": {
+        "address": "Burton St opp St Vincent's Hospital",
+        "class": "Location",
+        "lat": -33.87928,
+        "lng": 151.22153,
+        "timezone": "Australia/Sydney"
+      },
+      "hashCode": 1451374735,
+      "metres": 426,
+      "mini": {
+        "description": "Caldwell Street & Surrey Lane",
+        "instruction": "Walk",
+        "mainValue": "450m"
+      },
+      "modeIdentifier": "wa_wal",
+      "modeInfo": {
+        "alt": "Walk",
+        "color": {
+          "blue": 99,
+          "green": 199,
+          "red": 30
+        },
+        "identifier": "wa_wal",
+        "localIcon": "walk"
+      },
+      "notes": "<DURATION> ⋅ 450m",
+      "streets": [
+        {
+          "encodedWaypoints": "p`xmEom~y[ZS??O`B??qAU_C_@s@KwB_@??LsAJeADg@@OAMz@g@",
+          "metres": 423
+        }
+      ],
+      "to": {
+        "address": "Caldwell Street & Surrey Lane",
+        "class": "Location",
+        "lat": -33.8779,
+        "lng": 151.22294,
+        "timezone": "Australia/Sydney"
+      },
+      "travelDirection": 4,
+      "type": "unscheduled",
+      "visibility": "in summary"
+    }
+  ]
+}

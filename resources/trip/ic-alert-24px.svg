@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>ic-alert-24px</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-210.000000, -34.000000)" id="Alert">
+            <g transform="translate(210.000000, 34.000000)">
+                <rect id="Grid" x="0" y="0" width="24" height="24"></rect>
+                <path d="M10.0852953,3.5102919 C11.1427575,1.57161122 12.8533904,1.5645491 13.9147047,3.5102919 L22.0852953,18.4897081 C23.1427575,20.4283888 22.2157067,22 20.009947,22 L3.99005301,22 C1.78640758,22 0.853390418,20.4354509 1.91470467,18.4897081 L10.0852953,3.5102919 Z M13,11.005216 L12.4743862,15.8226576 L11.5128827,15.8226576 L11,11.005216 L11,8 L13,8 L13,11.005216 Z M12.915732,19 L11.0969991,19 L11.0969991,16.9337828 L12.915732,16.9337828 L12.915732,19 Z" fill="#212121"></path>
+            </g>
+        </g>
+    </g>
+</svg>

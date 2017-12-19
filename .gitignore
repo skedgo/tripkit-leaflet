@@ -1,0 +1,12 @@
+node_modules
+.DS_Store
+tmp/**/*
+.idea
+.idea/**/*
+*.iml
+_site
+*.sublime-*
+.mailmap
+bower.json
+component.json
+Gemfile.lock

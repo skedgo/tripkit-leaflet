@@ -1,0 +1,152 @@
+body{
+	margin: 0px;
+	font-family: ProximaNova-Regular, sans-serif;
+}
+
+.addressSelector{
+	line-height: 2.4;
+	cursor: pointer;
+}
+
+.addressSelector:hover{
+	color: rgb(116, 200, 82);
+}
+
+.selectorPanel{
+	background-color: #eceef1;
+	float:left;
+	width:400px;
+	display:none;
+	overflow-x: scroll;
+}
+
+.selectorFloatPanel{
+	background-color: #eceef1;
+	position:absolute;
+	overflow-x: scroll;
+	left: 60px;
+	top:65px;
+	opacity: 0.9;
+	z-index: 500;
+	padding: 0 10px;
+	display:none;
+	max-height: 290px;
+	width: 400px;
+}
+
+.clearBtn{
+	text-align: center;
+	background: white;
+	color: darkgrey;
+	position: fixed;
+	width: inherit;
+}
+
+.btn{
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	font-size: 14px;
+	background-color: whitesmoke;
+	cursor: pointer;
+}
+
+.icon-style{
+	width:24px !important;
+	height:24px !important;
+	background-color:white;
+	border-radius: 50px;
+	padding:5px;
+	border:1px solid black;
+}
+
+.block{
+	display:block;
+}
+
+.center{
+	margin:auto;
+}
+
+.tripDuration{
+    white-space: normal;
+    height: 24px;
+    font-size: 19px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.tripArrive{
+    white-space: normal;
+    height: 24px;
+    font-size: 19px;
+    color: grey;
+    margin-left: 3px;
+}
+
+.tripDetails{
+	border-bottom: 1px solid #e9e9e9;
+    padding: 5px 0;
+    min-height: 44px;
+}
+
+.tripDetails .inline{
+	display: -webkit-inline-flex;
+    margin-left: 5px;
+}
+
+.tripLine{
+	padding: 7px 20px;
+	cursor:pointer;
+	text-align: left;
+    white-space: normal;
+    overflow-y: hidden;
+    font-size: 19px;
+    background-color: white;
+    margin: 10px 0px;
+}
+
+.tripLine .icon{
+	display: inline;
+	float:left;
+}
+
+.tripline .info{
+	margin-top: 7px;
+    color: #8b8b8b;
+    display: inline;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+}
+
+.tripLine .iconText{
+	display: inline;
+	color: #b8b7b7;
+    font-size: 10px;
+    float:left;
+}
+
+.tripLine .more{
+	color: #b8b7b7;
+    font-size: small;
+    padding-top: 3px;
+}
+
+.messenger{
+	position: absolute;
+	top: 10px;
+	left: 40%;
+	z-index: 400;
+	height: 30px;
+	display: none;
+}
+
+.message{
+	margin:auto;
+	text-align: center;
+	background-color: rgba(65, 70, 79, 0.8);
+	line-height: 30px;
+	border-radius: 10px;
+	color: whitesmoke;
+	padding: 10px;
+
+}
