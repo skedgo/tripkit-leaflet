@@ -96,7 +96,6 @@ body{
 
 .tripLine{
 	padding: 7px 20px;
-	cursor:pointer;
 	text-align: left;
     white-space: normal;
     overflow-y: hidden;
@@ -149,4 +148,11 @@ body{
 	color: whitesmoke;
 	padding: 10px;
 
+}
+
+/*override leaflet style*/
+.leaflet-interactive{
+	cursor: move;
+	cursor: -webkit-grabbing;
+	cursor: -moz-grabbing;
 }

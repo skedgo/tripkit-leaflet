@@ -616,12 +616,6 @@ L.tripgoRouting.tripWidget = function () {
         if (trip.caloriesCost !== undefined) caloriesCost = trip.caloriesCost + " calories";else caloriesCost = "NO calories";
 
         moreData.innerHTML = moneyCost + carbonCost + caloriesCost;
-        L.DomEvent.on(moreData, "mouseover", function () {
-            moreData.style.fontWeight = "bold";
-        });
-        L.DomEvent.on(moreData, "mouseout", function () {
-            moreData.style.fontWeight = "normal";
-        });
         return moreData;
     }
 
