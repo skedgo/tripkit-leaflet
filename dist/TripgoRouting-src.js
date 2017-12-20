@@ -1,7 +1,3 @@
-'use strict';
-
-var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
-
 (function (factory, window) {
 
     // define an AMD module that relies on 'leaflet'
@@ -9,7 +5,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
         define(['leaflet'], factory);
 
         // define a Common JS module that relies on 'leaflet'
-    } else if ((typeof exports === 'undefined' ? 'undefined' : _typeof(exports)) === 'object') {
+    } else if (typeof exports === 'object') {
         module.exports = factory(require('leaflet'));
     }
 
@@ -23,22 +19,22 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 
         // receives: json object and key
         // returns: true if json object has key
-        has: function has(obj, key) {
+        has: function (obj, key) {
             return obj != null && hasOwnProperty.call(obj, key);
         },
 
         // is a given object a function
-        isFunction: function isFunction(obj) {
+        isFunction: function (obj) {
             return typeof obj == 'function' || false;
         },
 
         //returns true if the item is presents in array.
-        contains: function contains(array, item) {
+        contains: function (array, item) {
             return array.indexOf(item) > -1;
         },
 
         // returns true if latLng has lat and lng defined
-        validLatLng: function validLatLng(latLng) {
+        validLatLng: function (latLng) {
             return latLng !== undefined && latLng.lat !== undefined && latLng.lng !== undefined;
         }
 
@@ -48,17 +44,15 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
     return tripgoRouting;
 }, window);
 
-"use strict";
-
 L.tripgoRouting.mapLayer = function () {
 
-    var map = null;
-    var mapId = "";
-    var stops = [];
-    var tripDisplaying = null;
-    var messenger = null;
-    var tripgoApiKey = null;
-    var floatPanel = false;
+    let map = null;
+    let mapId = "";
+    let stops = [];
+    let tripDisplaying = null;
+    let messenger = null;
+    let tripgoApiKey = null;
+    let floatPanel = false;
 
     function popUpSelector(latlng) {
         return "<div>  " + "<div class='addressSelector' " + "onclick='L.tripgoRouting.mapLayer.createMarker(\"from\"," + latlng.lat + "," + latlng.lng + ")'>" + "Directions from here" + "</div>" + " <div class='addressSelector' onclick='L.tripgoRouting.mapLayer.createMarker(\"to\", " + latlng.lat + "," + latlng.lng + ")'>" + "Direction to here" + "</div> " + "</div>";
@@ -76,7 +70,7 @@ L.tripgoRouting.mapLayer = function () {
         }).addTo(map);
     };
 
-    var defaultOptions = {
+    let defaultOptions = {
         "mapId": "map",
         "gogoleTile": true,
         "mapCenter": {
@@ -105,7 +99,7 @@ L.tripgoRouting.mapLayer = function () {
     }
 
     return {
-        initialize: function initialize(options) {
+        initialize: function (options) {
             options = checkOptions(options);
 
             mapId = options.mapId;
@@ -119,7 +113,7 @@ L.tripgoRouting.mapLayer = function () {
 
             floatPanel = options.floatPanel;
 
-            var tripsPanel = L.DomUtil.create("div");
+            let tripsPanel = L.DomUtil.create("div");
             tripsPanel.id = "selectorPanel";
 
             if (floatPanel) tripsPanel.className = "selectorFloatPanel";else tripsPanel.className = "selectorPanel";
@@ -132,70 +126,70 @@ L.tripgoRouting.mapLayer = function () {
             });
         },
 
-        getMapId: function getMapId() {
+        getMapId: function () {
             return mapId;
         },
 
-        getMap: function getMap() {
+        getMap: function () {
             return map;
         },
 
-        getTripDisplaying: function getTripDisplaying() {
+        getTripDisplaying: function () {
             return tripDisplaying;
         },
 
-        setTripDisplaying: function setTripDisplaying(displaying) {
+        setTripDisplaying: function (displaying) {
             tripDisplaying = displaying;
         },
 
-        mapResize: function mapResize(width, height) {
-            var element = L.DomUtil.get(this.getMapId());
+        mapResize: function (width, height) {
+            let element = L.DomUtil.get(this.getMapId());
             element.style.width = width + "px";
             element.style.height = height + "px";
             map.invalidateSize();
         },
 
-        getMessenger: function getMessenger() {
+        getMessenger: function () {
             if (messenger == null) messenger = new Messenger();
 
             return messenger;
         },
 
-        fromClick: function fromClick(e) {
+        fromClick: function (e) {
             if (!L.tripgoRouting.mapLayer.showingTrip()) {
-                var latlng = L.latLng(e.latlng.lat, e.latlng.lng);
+                let latlng = L.latLng(e.latlng.lat, e.latlng.lng);
                 L.popup().setLatLng(latlng).setContent(popUpSelector(e.latlng)).openOn(L.tripgoRouting.mapLayer.getMap());
             }
         },
 
-        createMarker: function createMarker(where, lat, lng) {
+        createMarker: function (where, lat, lng) {
             map.closePopup();
-            var latlng = L.latLng(lat, lng);
+            let latlng = L.latLng(lat, lng);
             if (stops[where] !== undefined) {
                 map.removeLayer(stops[where]);
             }
 
-            var iconUrl = "resources/map/map-pin-" + where + ".svg";
-            var icon = L.icon({ iconUrl: iconUrl, iconSize: [33, 37], iconAnchor: [16, 37] });
-            var marker = L.marker();
+            let iconUrl = "resources/map/map-pin-" + where + ".svg";
+            let icon = L.icon({ iconUrl: iconUrl, iconSize: [33, 37], iconAnchor: [16, 37] });
+            let marker = L.marker();
             marker.setLatLng(latlng).setIcon(icon).addTo(map);
             marker.dragging.enable();
 
             stops[where] = marker;
 
             if (stops.from !== undefined && stops.to !== undefined) {
-                var from = stops.from.getLatLng();
-                var to = stops.to.getLatLng();
+                let from = stops.from.getLatLng();
+                let to = stops.to.getLatLng();
 
                 L.tripgoRouting.routeService.route(tripgoApiKey, from, to);
             }
         },
 
-        clearMap: function clearMap() {
+        clearMap: function () {
             location.reload();
         },
 
-        clearMarkers: function clearMarkers() {
+        clearMarkers: function () {
             if (stops.from !== undefined && stops.to !== undefined) {
                 map.removeLayer(stops.from);
                 map.removeLayer(stops.to);
@@ -203,26 +197,19 @@ L.tripgoRouting.mapLayer = function () {
             }
         },
 
-        showingTrip: function showingTrip() {
+        showingTrip: function () {
             return tripDisplaying !== null;
         },
 
-        selectorPanelIsFloat: function selectorPanelIsFloat() {
+        selectorPanelIsFloat: function () {
             return floatPanel;
         }
     };
 }();
 
-"use strict";
+class Messenger {
 
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-var Messenger = function () {
-    function Messenger() {
-        _classCallCheck(this, Messenger);
-
+    constructor() {
         this.messenger = L.DomUtil.create("div");
         this.messenger.className = "messenger";
         document.body.appendChild(this.messenger);
@@ -230,55 +217,44 @@ var Messenger = function () {
         this.message = null;
     }
 
-    _createClass(Messenger, [{
-        key: "info",
-        value: function info(text) {
-            this.createMessage(text);
-            this.message.className = "message";
-            this.show();
-        }
-    }, {
-        key: "createMessage",
-        value: function createMessage(text) {
-            this.hideMessage();
-            this.message = L.DomUtil.create("div");
+    info(text) {
+        this.createMessage(text);
+        this.message.className = "message";
+        this.show();
+    }
 
-            var span = L.DomUtil.create("span");
-            span.innerHTML = text;
-            this.message.appendChild(span);
-            this.messenger.appendChild(this.message);
-        }
-    }, {
-        key: "hideMessage",
-        value: function hideMessage() {
-            if (this.message !== null) {
-                this.message.remove();
-                this.message = null;
-            }
-            this.messenger.style.display = "none";
-        }
-    }, {
-        key: "show",
-        value: function show() {
-            this.messenger.style.display = "block";
-        }
-    }, {
-        key: "error",
-        value: function error(text, closeAfterMillis) {
-            if (closeAfterMillis == undefined) closeAfterMillis = 3000;
+    createMessage(text) {
+        this.hideMessage();
+        this.message = L.DomUtil.create("div");
 
-            this.info(text);
+        let span = L.DomUtil.create("span");
+        span.innerHTML = text;
+        this.message.appendChild(span);
+        this.messenger.appendChild(this.message);
+    }
 
-            setTimeout(function () {
-                L.tripgoRouting.mapLayer.getMessenger().hideMessage();
-            }, closeAfterMillis);
+    hideMessage() {
+        if (this.message !== null) {
+            this.message.remove();
+            this.message = null;
         }
-    }]);
+        this.messenger.style.display = "none";
+    }
 
-    return Messenger;
-}();
+    show() {
+        this.messenger.style.display = "block";
+    }
 
-"use strict";
+    error(text, closeAfterMillis) {
+        if (closeAfterMillis == undefined) closeAfterMillis = 3000;
+
+        this.info(text);
+
+        setTimeout(function () {
+            L.tripgoRouting.mapLayer.getMessenger().hideMessage();
+        }, closeAfterMillis);
+    }
+}
 
 /*
 * routeService provides functions to hit SkedGo server and get data from cache.
@@ -287,14 +263,13 @@ var Messenger = function () {
 
 L.tripgoRouting.routeService = function () {
 
-    var templatesCache = [];
-    var transportModes = ["pt_pub", "ps_tax", "me_car", "me_mot", "cy_bic", "wa_wal", "ps_tax_MYDRIVER", "ps_tnc_UBER", "me_car-r_SwiftFleet", "me_car-p_BlaBlaCar", "cy_bic-s"];
-    var baseURL = "https://api.tripgo.com/v1/routing.json?v=11&locale=en";
+    let templatesCache = [];
+    const transportModes = ["pt_pub", "ps_tax", "me_car", "me_mot", "cy_bic", "wa_wal", "ps_tax_MYDRIVER", "ps_tnc_UBER", "me_car-r_SwiftFleet", "me_car-p_BlaBlaCar", "cy_bic-s"];
+    const baseURL = "https://api.tripgo.com/v1/routing.json?v=11&locale=en";
 
     function getUrl(from, to, mode) {
-        var url = baseURL + mode;
-        var routeUrl = url + "&from=(" + from.lat + "," + from.lng + ")&to=(" + to.lat + "," + to.lng + ")";
-        console.log(routeUrl);
+        let url = baseURL + mode;
+        let routeUrl = url + "&from=(" + from.lat + "," + from.lng + ")&to=(" + to.lat + "," + to.lng + ")";
         return routeUrl;
     }
 
@@ -304,18 +279,18 @@ L.tripgoRouting.routeService = function () {
         $.ajax({
             url: url,
             dataType: "json",
-            beforeSend: function beforeSend(xhr) {
+            beforeSend: function (xhr) {
                 if (apiKey !== null) xhr.setRequestHeader('X-TripGo-Key', apiKey);
             },
-            success: function success(result) {
+            success: function (result) {
                 if (requirements <= 1) L.tripgoRouting.mapLayer.getMessenger().hideMessage();
 
                 requirements--;
                 if (L.tripgoRouting.has(result, 'groups')) {
                     templatesCache = L.tripgoRouting.util.parseTemplates(result.segmentTemplates);
-                    var trips = L.tripgoRouting.util.parseTrips(result.groups);
+                    let trips = L.tripgoRouting.util.parseTrips(result.groups);
                     L.tripgoRouting.tripWidget.initialize();
-                    _success(trips);
+                    success(trips);
                 } else {
                     // check if server gets results
                     if (requirements === 0 && !L.tripgoRouting.tripWidget.isVisible()) {
@@ -325,7 +300,7 @@ L.tripgoRouting.routeService = function () {
                 }
             },
 
-            error: function error(data) {
+            error: function (data) {
                 requirements--;
                 // if server returns an error, will inform the user about that
                 if (requirements === 0) {
@@ -337,8 +312,8 @@ L.tripgoRouting.routeService = function () {
         });
     }
 
-    function _success(result) {
-        var i = 0;
+    function success(result) {
+        let i = 0;
         result.forEach(function (element) {
             L.tripgoRouting.tripWidget.addTrip(element, "trip" + i);
             i++;
@@ -351,7 +326,7 @@ L.tripgoRouting.routeService = function () {
         * Param: hashCode, value which is provided from server. It identifies a template.
         * Return: trip template.
         * */
-        getTemplate: function getTemplate(hashCode) {
+        getTemplate: function (hashCode) {
             return templatesCache[hashCode];
         },
 
@@ -361,12 +336,12 @@ L.tripgoRouting.routeService = function () {
         *       from: leaflet latlng
         *       to: leaflet latlng
         * */
-        route: function route(tripgoApiKey, from, to) {
+        route: function (tripgoApiKey, from, to) {
             if (L.tripgoRouting.validLatLng(from) && L.tripgoRouting.validLatLng(to)) {
                 L.tripgoRouting.mapLayer.getMessenger().info("getting routes form SkedGo server ...");
-                var multimodal = "";
+                let multimodal = "";
                 transportModes.forEach(function (mode) {
-                    var url = getUrl(from, to, "&modes[]=" + mode);
+                    let url = getUrl(from, to, "&modes[]=" + mode);
 
                     multimodal = multimodal + "&modes[]=" + mode;
                     getRoutes(url, tripgoApiKey);
@@ -379,21 +354,14 @@ L.tripgoRouting.routeService = function () {
     };
 }();
 
-"use strict";
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
 /*
 *
 * Represents a SkedGo Segment
 * */
 
-var Segment = function () {
-    function Segment(jsonSegment) {
-        _classCallCheck(this, Segment);
+class Segment {
 
+    constructor(jsonSegment) {
         this.startTime = jsonSegment.startTime;
         this.endTime = jsonSegment.endTime;
         this.durationString = jsonSegment.durationString;
@@ -404,7 +372,7 @@ var Segment = function () {
         this.serviceTripID = jsonSegment.serviceTripID;
         this.serviceNumber = jsonSegment.serviceNumber;
 
-        var template = L.tripgoRouting.routeService.getTemplate(this.hashCode);
+        let template = L.tripgoRouting.routeService.getTemplate(this.hashCode);
         if (template.shapes !== undefined) {
             this.waypoints = this.decodeWaypoints(template.shapes);
         }
@@ -426,54 +394,42 @@ var Segment = function () {
         this.wheelchairAccessible = jsonSegment.wheelchairAccessible;
     }
 
-    _createClass(Segment, [{
-        key: "decodeWaypoints",
-        value: function decodeWaypoints(encodeWaypoints) {
-            var waypointsList = [];
-            for (var i = 0; i < encodeWaypoints.length; i++) {
-                if (encodeWaypoints[i].travelled !== undefined) {
-                    if (encodeWaypoints[i].travelled === true) {
-                        var waypoints = encodeWaypoints[i].encodedWaypoints;
-                        var pol = L.Polyline.fromEncoded(waypoints);
-                        waypointsList[waypointsList.length] = pol;
-                    }
-                } else {
-                    var _waypoints = encodeWaypoints[i].encodedWaypoints;
-                    var _pol = L.Polyline.fromEncoded(_waypoints);
-                    waypointsList[waypointsList.length] = _pol;
+    decodeWaypoints(encodeWaypoints) {
+        let waypointsList = [];
+        for (let i = 0; i < encodeWaypoints.length; i++) {
+            if (encodeWaypoints[i].travelled !== undefined) {
+                if (encodeWaypoints[i].travelled === true) {
+                    let waypoints = encodeWaypoints[i].encodedWaypoints;
+                    let pol = L.Polyline.fromEncoded(waypoints);
+                    waypointsList[waypointsList.length] = pol;
                 }
+            } else {
+                let waypoints = encodeWaypoints[i].encodedWaypoints;
+                let pol = L.Polyline.fromEncoded(waypoints);
+                waypointsList[waypointsList.length] = pol;
             }
-            return waypointsList;
         }
-    }, {
-        key: "getDurationMinutes",
-        get: function get() {
-            return Math.floor((this.endTime - this.startTime) / 60);
-        }
-    }, {
-        key: "getDistanceString",
-        get: function get() {
-            if (this.meters < 1000) return this.meters + " m";else return (this.meters / 1000).toFixed(1) + " km";
-        }
-    }]);
+        return waypointsList;
+    }
 
-    return Segment;
-}();
+    get getDurationMinutes() {
+        return Math.floor((this.endTime - this.startTime) / 60);
+    }
 
-"use strict";
+    get getDistanceString() {
+        if (this.meters < 1000) return this.meters + " m";else return (this.meters / 1000).toFixed(1) + " km";
+    }
 
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+}
 
 /*
 *
 * Represents a SkedGo Trip
 * */
 
-var Trip = function () {
-    function Trip(jsonTrip) {
-        _classCallCheck(this, Trip);
+class Trip {
+
+    constructor(jsonTrip) {
 
         this.depart = jsonTrip.depart;
         this.arrive = jsonTrip.arrive;
@@ -483,7 +439,7 @@ var Trip = function () {
         this.moneyCost = jsonTrip.moneyCost;
         this.caloriesCost = jsonTrip.caloriesCost;
         this.segments = [];
-        for (var i = 0; i < jsonTrip.segments.length; i++) {
+        for (let i = 0; i < jsonTrip.segments.length; i++) {
             this.segments[this.segments.length] = new Segment(jsonTrip.segments[i]);
         }
         // this._segmentTemplates = segmentTemplates;
@@ -492,118 +448,106 @@ var Trip = function () {
         this.bounds = null;
     }
 
-    _createClass(Trip, [{
-        key: "drawTrip",
-        value: function drawTrip(map) {
-            if (this.drawMarkers.length === 0 && this.drawSegments.length === 0) {
-                for (var i = 0; i < this.segments.length; i++) {
-                    if (this.segments[i].waypoints !== undefined) {
-                        var segment2Draw = this.segments[i];
-                        for (var j = 0; j < this.segments[i].waypoints.length; j++) {
-                            var mode = segment2Draw.modeInfo;
-                            var options = {};
-                            options.weight = 7;
-                            options.color = Trip.getModeColor(segment2Draw.color);
-                            var polyline = this.segments[i].waypoints[j];
-                            polyline.setStyle(options);
-                            polyline.addTo(map);
-                            this.drawSegments.push(polyline);
-                            if (this.bounds === null) this.bounds = polyline.getBounds();else this.bounds.extend(polyline.getBounds());
+    drawTrip(map) {
+        if (this.drawMarkers.length === 0 && this.drawSegments.length === 0) {
+            for (let i = 0; i < this.segments.length; i++) {
+                if (this.segments[i].waypoints !== undefined) {
+                    let segment2Draw = this.segments[i];
+                    for (let j = 0; j < this.segments[i].waypoints.length; j++) {
+                        let mode = segment2Draw.modeInfo;
+                        let options = {};
+                        options.weight = 7;
+                        options.color = Trip.getModeColor(segment2Draw.color);
+                        let polyline = this.segments[i].waypoints[j];
+                        polyline.setStyle(options);
+                        polyline.addTo(map);
+                        this.drawSegments.push(polyline);
+                        if (this.bounds === null) this.bounds = polyline.getBounds();else this.bounds.extend(polyline.getBounds());
 
-                            var segment = this.segments[i];
-                            this.drawIcon(map, segment.from.lat, segment.from.lng, mode);
-                        }
+                        let segment = this.segments[i];
+                        this.drawIcon(map, segment.from.lat, segment.from.lng, mode);
                     }
                 }
-            } else {
-                for (var _i = 0; _i < this.drawSegments.length; _i++) {
-                    var _polyline = this.drawSegments[_i];
-                    _polyline.addTo(map);
-                }
-                for (var _i2 = 0; _i2 < this.drawMarkers.length; _i2++) {
-                    this.drawMarkers[_i2].addTo(map);
-                }
             }
-            if (this.bounds.isValid()) map.fitBounds(this.bounds);
-
-            L.tripgoRouting.mapLayer.setTripDisplaying(this);
-        }
-    }, {
-        key: "removeFromMap",
-        value: function removeFromMap(map) {
-            if (this.drawSegments !== null) {
-                for (var i = 0; i < this.drawSegments.length; i++) {
-                    map.removeLayer(this.drawSegments[i]);
-                }
+        } else {
+            for (let i = 0; i < this.drawSegments.length; i++) {
+                let polyline = this.drawSegments[i];
+                polyline.addTo(map);
             }
-
-            if (this.drawMarkers !== null) {
-                for (var _i3 = 0; _i3 < this.drawMarkers.length; _i3++) {
-                    map.removeLayer(this.drawMarkers[_i3]);
-                }
+            for (let i = 0; i < this.drawMarkers.length; i++) {
+                this.drawMarkers[i].addTo(map);
             }
         }
-    }, {
-        key: "drawIcon",
-        value: function drawIcon(map, lat, lng, mode) {
-            var htmlIcon = L.tripgoRouting.util.createIcon(mode);
-            var myIcon = L.divIcon({ className: 'map-iconStyle', html: htmlIcon.innerHTML, iconAnchor: [18, 76], iconSize: [36, 80] });
-            var marker = L.marker([lat, lng], { icon: myIcon });
-            this.drawMarkers.push(marker);
-            marker.addTo(map);
-            return marker;
-        }
-    }, {
-        key: "arriveTime",
-        get: function get() {
-            return L.tripgoRouting.util.getTime(this.arrive);
-        }
-    }, {
-        key: "departTime",
-        get: function get() {
-            return L.tripgoRouting.util.getTime(this.depart);
-        }
-    }, {
-        key: "getDurationMinutes",
-        get: function get() {
-            return Math.floor((this.arrive - this.depart) / 60);
-        }
-    }], [{
-        key: "getModeColor",
-        value: function getModeColor(modeColor) {
-            return "rgb(" + modeColor.red + "," + modeColor.green + "," + modeColor.blue + ")";
-        }
-    }]);
+        if (this.bounds.isValid()) map.fitBounds(this.bounds);
 
-    return Trip;
-}();
+        L.tripgoRouting.mapLayer.setTripDisplaying(this);
+    }
 
-"use strict";
+    removeFromMap(map) {
+        if (this.drawSegments !== null) {
+            for (let i = 0; i < this.drawSegments.length; i++) {
+                map.removeLayer(this.drawSegments[i]);
+            }
+        }
+
+        if (this.drawMarkers !== null) {
+            for (let i = 0; i < this.drawMarkers.length; i++) {
+                map.removeLayer(this.drawMarkers[i]);
+            }
+        }
+    }
+
+    drawIcon(map, lat, lng, mode) {
+        let htmlIcon = L.tripgoRouting.util.createIcon(mode);
+        let myIcon = L.divIcon({ className: 'map-iconStyle', html: htmlIcon.innerHTML, iconAnchor: [18, 76], iconSize: [36, 80] });
+        let marker = L.marker([lat, lng], { icon: myIcon });
+        this.drawMarkers.push(marker);
+        marker.addTo(map);
+        return marker;
+    }
+
+    get arriveTime() {
+        return L.tripgoRouting.util.getTime(this.arrive);
+    }
+
+    get departTime() {
+        return L.tripgoRouting.util.getTime(this.depart);
+    }
+
+    get getDurationMinutes() {
+        return Math.floor((this.arrive - this.depart) / 60);
+    }
+
+    static getModeColor(modeColor) {
+        return "rgb(" + modeColor.red + "," + modeColor.green + "," + modeColor.blue + ")";
+    }
+
+}
 
 L.tripgoRouting.tripWidget = function () {
 
     function span(text, className) {
-        var span = L.DomUtil.create("span");
+        let span = L.DomUtil.create("span");
         span.className = className;
         span.innerHTML = text;
         return span;
     }
 
     function div(className) {
-        var div = L.DomUtil.create("div");
+        let div = L.DomUtil.create("div");
         div.className = className;
         return div;
     }
 
     function img(src, className) {
-        var img = L.DomUtil.create("img");
+        let img = L.DomUtil.create("img");
         img.className = className;
         img.src = src;
         return img;
     }
 
     function createTripLine(trip, id) {
-        var tripline = div("tripLine");
+        let tripline = div("tripLine");
         tripline.id = id;
 
         L.DomEvent.on(tripline, "mouseover", function () {
@@ -622,19 +566,19 @@ L.tripgoRouting.tripWidget = function () {
     }
 
     function timesWidget(trip) {
-        var times = div("");
+        let times = div("");
 
-        var duration = span(trip.getDurationMinutes + " min ", "tripDuration");
-        var arrive = span(" (arrive " + trip.arriveTime + ")", "tripArrive");
+        let duration = span(trip.getDurationMinutes + " min ", "tripDuration");
+        let arrive = span(" (arrive " + trip.arriveTime + ")", "tripArrive");
         times.appendChild(duration);
         times.appendChild(arrive);
         return times;
     }
 
     function tripDetailsWidget(trip) {
-        var tripDetails = div("tripDetails");
-        for (var i = 0; i < trip.segments.length; i++) {
-            var segment = trip.segments[i];
+        let tripDetails = div("tripDetails");
+        for (let i = 0; i < trip.segments.length; i++) {
+            let segment = trip.segments[i];
             if (segment.modeInfo.identifier !== undefined) {
                 tripDetails.appendChild(segmentDetailsWidget(segment));
             }
@@ -643,13 +587,13 @@ L.tripgoRouting.tripWidget = function () {
     }
 
     function segmentDetailsWidget(segment) {
-        var segmentDetails = div('inline');
-        var htmlIcon = void 0;
+        let segmentDetails = div('inline');
+        let htmlIcon;
         if (L.tripgoRouting.has(segment.modeInfo, "remoteIcon")) htmlIcon = img(L.tripgoRouting.util.getTransportIconSVG(segment.modeInfo.remoteIcon, true), "icon");else htmlIcon = img(L.tripgoRouting.util.getTransportIconSVG(segment.modeInfo.localIcon, false), "icon");
         segmentDetails.appendChild(htmlIcon);
 
         if (segment.modeIdentifier !== undefined) {
-            var text = div("iconText");
+            let text = div("iconText");
             if (segment.modeIdentifier === "pt_pub") text.innerHTML = "<span style='color:black;'>" + segment.serviceNumber + "</span>" + "<br>" + L.tripgoRouting.util.getTime(segment.startTime);else {
                 if (segment.getDistanceString !== undefined) text.innerHTML = segment.getDistanceString;
             }
@@ -660,15 +604,15 @@ L.tripgoRouting.tripWidget = function () {
     }
 
     function moreDataWidget(trip) {
-        var moreData = div("more");
+        let moreData = div("more");
 
-        var moneyCost = "";
+        let moneyCost = "";
         if (trip.moneyCost !== undefined && trip.moneyCost !== 0) moneyCost = trip.currencySymbol + trip.moneyCost + " - ";else if (trip.moneyCost === 0) moneyCost = "Free - ";
 
-        var carbonCost = void 0;
+        let carbonCost;
         if (trip.carbonCost !== undefined) carbonCost = trip.carbonCost + "kg CO<SUB>2</SUB> - ";else carbonCost = "NO CO<SUB>2</SUB> - ";
 
-        var caloriesCost = void 0;
+        let caloriesCost;
         if (trip.caloriesCost !== undefined) caloriesCost = trip.caloriesCost + " calories";else caloriesCost = "NO calories";
 
         moreData.innerHTML = moneyCost + carbonCost + caloriesCost;
@@ -682,13 +626,13 @@ L.tripgoRouting.tripWidget = function () {
     }
 
     function clearBtn() {
-        var btn = div('addressSelector clearBtn');
+        let btn = div('addressSelector clearBtn');
         btn.innerHTML = "Clear Map";
         L.DomEvent.on(btn, "click", function () {
             L.tripgoRouting.mapLayer.clearMap();
         });
 
-        var box = div("");
+        let box = div("");
         box.style.width = "inherit";
         box.style.marginBottom = "12%";
         box.appendChild(btn);
@@ -696,7 +640,7 @@ L.tripgoRouting.tripWidget = function () {
     }
 
     return {
-        initialize: function initialize() {
+        initialize: function () {
             if (!this.isVisible()) {
                 this.getWidget().style.display = "block";
                 this.getWidget().style.height = window.innerHeight;
@@ -706,9 +650,9 @@ L.tripgoRouting.tripWidget = function () {
             }
         },
 
-        addTrip: function addTrip(trip, id) {
-            var tripLine = createTripLine(trip, id);
-            var times = timesWidget(trip);
+        addTrip: function (trip, id) {
+            let tripLine = createTripLine(trip, id);
+            let times = timesWidget(trip);
             tripLine.appendChild(times);
             tripLine.appendChild(tripDetailsWidget(trip));
             tripLine.appendChild(moreDataWidget(trip));
@@ -716,25 +660,23 @@ L.tripgoRouting.tripWidget = function () {
             this.getWidget().appendChild(tripLine);
         },
 
-        getWidget: function getWidget() {
+        getWidget: function () {
             return L.DomUtil.get("selectorPanel");
         },
 
-        getWidth: function getWidth() {
+        getWidth: function () {
             if (this.isVisible() && !L.tripgoRouting.mapLayer.selectorPanelIsFloat()) return 400;else return 0;
         },
 
-        isVisible: function isVisible() {
+        isVisible: function () {
             return this.getWidget().style.display === "block";
         }
     };
 }();
 
-"use strict";
-
 L.tripgoRouting.util = function () {
 
-    var remoteIconUrl = "https://tripgo.skedgo.com/satapp/modeicons/";
+    const remoteIconUrl = "https://tripgo.skedgo.com/satapp/modeicons/";
 
     function remoteIconString(modeCode) {
         return "icon-mode-" + modeCode + ".svg";
@@ -745,28 +687,28 @@ L.tripgoRouting.util = function () {
     }
 
     return {
-        parseTemplates: function parseTemplates(json) {
-            var segmentTemplates = [];
-            for (var i = 0; i < json.length; i++) {
+        parseTemplates: function (json) {
+            let segmentTemplates = [];
+            for (let i = 0; i < json.length; i++) {
                 segmentTemplates[json[i].hashCode] = json[i];
             }
             return segmentTemplates;
         },
 
-        parseTrips: function parseTrips(json) {
-            var parsedTrips = [];
-            for (var i = 0; i < json.length; i++) {
+        parseTrips: function (json) {
+            let parsedTrips = [];
+            for (let i = 0; i < json.length; i++) {
                 parsedTrips.push(new Trip(json[i].trips[0]));
             }
             return parsedTrips;
         },
 
-        createIcon: function createIcon(mode) {
-            var divImg = L.DomUtil.create('div');
-            var pin = L.DomUtil.create('img', "block center");
+        createIcon: function (mode) {
+            let divImg = L.DomUtil.create('div');
+            let pin = L.DomUtil.create('img', "block center");
             pin.src = "resources/map/map-pin-base@2x.png";
 
-            var icon = L.DomUtil.create("img", 'icon-style block');
+            let icon = L.DomUtil.create("img", 'icon-style block');
 
             if (L.tripgoRouting.has(mode, "remoteIcon")) icon.src = this.getTransportIconSVG(mode.remoteIcon, true);else icon.src = this.getTransportIconSVG(mode.localIcon, false);
 
@@ -776,14 +718,14 @@ L.tripgoRouting.util = function () {
             return divImg;
         },
 
-        getTransportIconSVG: function getTransportIconSVG(modeCode, remote) {
+        getTransportIconSVG: function (modeCode, remote) {
             if (remote) return remoteIconUrl + remoteIconString(modeCode);else return "resources/trip/" + localIconString(modeCode);
         },
 
-        getTime: function getTime(long) {
-            var date = new Date(long * 1000);
-            var hs = date.getHours();
-            var min = date.getMinutes();
+        getTime: function (long) {
+            let date = new Date(long * 1000);
+            let hs = date.getHours();
+            let min = date.getMinutes();
             if (hs <= 9) hs = "0" + hs;
             if (min <= 9) min = "0" + min;
 

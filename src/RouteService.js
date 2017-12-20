@@ -13,7 +13,6 @@ L.tripgoRouting.routeService = (function () {
     function getUrl(from, to, mode){
         let url = baseURL +  mode;
         let routeUrl = url +"&from=("+from.lat+","+from.lng+")&to=("+to.lat+","+to.lng+")";
-        console.log(routeUrl);
         return routeUrl;
     }
 
