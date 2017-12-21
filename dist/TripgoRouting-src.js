@@ -15,7 +15,6 @@
     }
 })(function (L) {
     var tripgoRouting = {
-        version: 'v1.0.0',
 
         // receives: json object and key
         // returns: true if json object has key
