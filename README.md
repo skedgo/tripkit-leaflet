@@ -96,14 +96,14 @@ TripGo leaflet's plugin motivation is to provide an easy way to include it's fun
 ***Sydney***
 
 - Default Configuration
-![TripGoRouting](tripgoRouting.jpg)
+![TripGoRouting](images/tripgoRouting.jpg)
 
 - Float Configuration
-![TripGoRouting](tripgoRoutingFloatPanel.jpg)
+![TripGoRouting](images/tripgoRoutingFloatPanel.jpg)
 
 ***London***
 
-![TripGoRouting](tripgoRouting2.jpg)
+![TripGoRouting](images/tripgoRouting2.jpg)
  
    
 # DEMO
