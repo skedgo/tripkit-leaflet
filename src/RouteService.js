@@ -23,8 +23,7 @@ L.tripgoRouting.routeService = (function () {
             url         : url,
             dataType    : "json",
             beforeSend: function(xhr){
-                if(apiKey !== null)
-                    xhr.setRequestHeader('X-TripGo-Key', apiKey);
+                xhr.setRequestHeader('X-TripGo-Key', apiKey);
             },
             success     : function(result) {
                 if(requirements <= 1)

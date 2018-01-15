@@ -31,6 +31,7 @@ L.tripgoRouting.mapLayer = (function(){
         }).addTo(map);
     };
 
+    let defaultApiKey = "d72e9c4da23eec14ea56f4065abd95c8";
     let defaultOptions = {
         "mapId": "map",
         "gogoleTile": true,
@@ -39,7 +40,7 @@ L.tripgoRouting.mapLayer = (function(){
             "lng": 151.2039176
         },
         "floatPanel": false,
-        "tripgoApiKey": null
+        "tripgoApiKey": defaultApiKey
     };
 
     function checkOptions(options) {
@@ -58,8 +59,8 @@ L.tripgoRouting.mapLayer = (function(){
                     return false;
                 }
             }
-            if(! L.tripgoRouting.has(options, "tripgoApiKey") || (options.tripgoApiKey === undefined))
-                options.tripgoApiKey =  defaultOptions.tripgoApiKey;
+             if(! L.tripgoRouting.has(options, "tripgoApiKey") || (options.tripgoApiKey.includes("TripGo")))
+                 options.tripgoApiKey =  defaultOptions.tripgoApiKey;
 
             if(!L.tripgoRouting.has(options, "floatPanel"))
                 options.floatPanel = defaultOptions.floatPanel;
@@ -80,9 +81,7 @@ L.tripgoRouting.mapLayer = (function(){
             this.mapResize(window.innerWidth, window.innerHeight);
             map.on('click', this.fromClick);
 
-            if(options.tripgoApiKey !== null && !options.tripgoApiKey.includes("<"))
-                tripgoApiKey = options.tripgoApiKey;
-
+            tripgoApiKey = options.tripgoApiKey;
             floatPanel = options.floatPanel;
 
             let tripsPanel = L.DomUtil.create("div");

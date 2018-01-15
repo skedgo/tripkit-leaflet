@@ -88,7 +88,8 @@ TripGo leaflet's plugin motivation is to provide an easy way to include it's fun
         |googleTile | true | If true the map will adopt Google Tile, if false the map will adopt OSM tile|
         |mapCenter | <pre> {"lat": -33.8650319, "lng": 151.2039176 } </pre> |Map point location. By default in Sydney, Australia.|
         |floatPanel | false |Change results panel style to float over the map|
-        |tripgoApiKey| null|Key provided by ***TripGo API***. If tripgoApiKey field is absent, ***TripGo*** backend responds getting a global api key. | 
+        |tripgoApiKey| Global TripGo api key |Key provided by ***TripGo API***. If tripgoApiKey field is absent, ***TripGo*** backend responds getting a global api key for leaflet. Notice that if you don't ask for your own free api key, the plugin will work sharing the quota limit with other users in same situation.| 
+    
     
 
 # Usage & examples
