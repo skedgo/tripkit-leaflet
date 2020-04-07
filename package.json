@@ -1,6 +1,6 @@
 {
   "name": "tripkit-leaflet",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "TripGo routing for Leaflet - Trip planning door-to-door",
   "preferGlobal": true,
   "main": "./dist/TripgoRouting.js",

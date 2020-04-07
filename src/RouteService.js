@@ -88,9 +88,9 @@ L.tripgoRouting.routeService = (function () {
                 L.tripgoRouting.mapLayer.getMessenger().info("getting routes form SkedGo server ...");
                 let multimodal =  "";
                 transportModes.forEach(function (mode) {
-                    let url = getUrl(from, to, "&modes[]="+mode);
+                    let url = getUrl(from, to, "&modes="+mode);
 
-                    multimodal = multimodal + "&modes[]=" + mode;
+                    multimodal = multimodal + "&modes=" + mode;
                     getRoutes(url, tripgoApiKey);
                 });
                 getRoutes(getUrl(from, to, multimodal), tripgoApiKey);

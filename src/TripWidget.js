@@ -67,13 +67,21 @@ L.tripgoRouting.tripWidget = (function () {
     function segmentDetailsWidget(segment){
         let segmentDetails = div('inline');
         let htmlIcon;
-        if(L.tripgoRouting.has(segment.modeInfo, "remoteIcon"))
-            htmlIcon = img(L.tripgoRouting.util.getTransportIconSVG(segment.modeInfo.remoteIcon, true), "icon");
-        else
-            htmlIcon = img(L.tripgoRouting.util.getTransportIconSVG(segment.modeInfo.localIcon, false), "icon");
-        segmentDetails.appendChild(htmlIcon);
 
-        if(segment.modeIdentifier !== undefined ){
+        if(L.tripgoRouting.has(segment.modeInfo, "remoteIcon")){
+         htmlIcon = img(L.tripgoRouting.util.getTransportIconSVG(segment.modeInfo.remoteIcon, true), "icon");
+         segmentDetails.appendChild(htmlIcon);
+        }else{
+            let path = L.tripgoRouting.util.getTransportIconSVG(segment.modeInfo.localIcon, false);
+            if (path !== undefined){
+                htmlIcon = img(path, "icon");
+                segmentDetails.appendChild(htmlIcon);
+            }
+        }
+
+
+
+        if(segment.modeIdentifier !== undefined){
             let  text = div("iconText");
             if(segment.modeIdentifier === "pt_pub")
                 text.innerHTML = "<span style='color:black;'>" + segment.serviceNumber + "</span>" + "<br>" + L.tripgoRouting.util.getTime(segment.startTime);

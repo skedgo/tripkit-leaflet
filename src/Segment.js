@@ -62,10 +62,14 @@ class Segment {
     }
 
     get getDistanceString(){
-        if(this.meters < 1000)
-            return this.meters + " m";
-        else
-            return (this.meters / 1000).toFixed(1) + " km";
+        if(this.meters !== undefined){
+            if(this.meters < 1000)
+                return this.meters + " m";
+            else
+                return (this.meters / 1000).toFixed(1) + " km";
+        }else
+            return "";
+
     }
 
 }

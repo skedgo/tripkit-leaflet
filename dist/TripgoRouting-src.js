@@ -340,9 +340,9 @@ L.tripgoRouting.routeService = function () {
                 L.tripgoRouting.mapLayer.getMessenger().info("getting routes form SkedGo server ...");
                 let multimodal = "";
                 transportModes.forEach(function (mode) {
-                    let url = getUrl(from, to, "&modes[]=" + mode);
+                    let url = getUrl(from, to, "&modes=" + mode);
 
-                    multimodal = multimodal + "&modes[]=" + mode;
+                    multimodal = multimodal + "&modes=" + mode;
                     getRoutes(url, tripgoApiKey);
                 });
                 getRoutes(getUrl(from, to, multimodal), tripgoApiKey);
@@ -416,7 +416,9 @@ class Segment {
     }
 
     get getDistanceString() {
-        if (this.meters < 1000) return this.meters + " m";else return (this.meters / 1000).toFixed(1) + " km";
+        if (this.meters !== undefined) {
+            if (this.meters < 1000) return this.meters + " m";else return (this.meters / 1000).toFixed(1) + " km";
+        } else return "";
     }
 
 }
@@ -588,8 +590,17 @@ L.tripgoRouting.tripWidget = function () {
     function segmentDetailsWidget(segment) {
         let segmentDetails = div('inline');
         let htmlIcon;
-        if (L.tripgoRouting.has(segment.modeInfo, "remoteIcon")) htmlIcon = img(L.tripgoRouting.util.getTransportIconSVG(segment.modeInfo.remoteIcon, true), "icon");else htmlIcon = img(L.tripgoRouting.util.getTransportIconSVG(segment.modeInfo.localIcon, false), "icon");
-        segmentDetails.appendChild(htmlIcon);
+
+        if (L.tripgoRouting.has(segment.modeInfo, "remoteIcon")) {
+            htmlIcon = img(L.tripgoRouting.util.getTransportIconSVG(segment.modeInfo.remoteIcon, true), "icon");
+            segmentDetails.appendChild(htmlIcon);
+        } else {
+            let path = L.tripgoRouting.util.getTransportIconSVG(segment.modeInfo.localIcon, false);
+            if (path !== undefined) {
+                htmlIcon = img(path, "icon");
+                segmentDetails.appendChild(htmlIcon);
+            }
+        }
 
         if (segment.modeIdentifier !== undefined) {
             let text = div("iconText");
@@ -712,7 +723,9 @@ L.tripgoRouting.util = function () {
         },
 
         getTransportIconSVG: function (modeCode, remote) {
-            if (remote) return remoteIconUrl + remoteIconString(modeCode);else return "resources/trip/" + localIconString(modeCode);
+            if (remote) return remoteIconUrl + remoteIconString(modeCode);else {
+                if (modeCode !== "wait" && modeCode !== "transfer" && modeCode !== "collect" && modeCode !== "return") return "resources/trip/" + localIconString(modeCode);else return undefined;
+            }
         },
 
         getTime: function (long) {

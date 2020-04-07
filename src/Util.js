@@ -49,10 +49,14 @@ L.tripgoRouting.util =  (function () {
          getTransportIconSVG : function (modeCode, remote) {
              if(remote)
                  return (remoteIconUrl + remoteIconString(modeCode))
-             else
-                 return "resources/trip/" + localIconString(modeCode);
-         },
+             else{
+                if ( modeCode !== "wait" && modeCode !== "transfer" && modeCode !== "collect" && modeCode !== "return")
+                     return "resources/trip/" + localIconString(modeCode);
+                else
+                    return undefined;
+             }
 
+         },
 
          getTime : function(long){
              let date = new Date(long * 1000);
